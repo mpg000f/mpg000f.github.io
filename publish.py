@@ -18,7 +18,7 @@ def main():
     ap.add_argument("--slug", required=True, help="url segment, e.g. allen-vs-jackson")
     ap.add_argument("--title")
     ap.add_argument("--description")
-    ap.add_argument("--tag", default="Post")
+    ap.add_argument("--tag", help="only set on first publish, or to change it")
     ap.add_argument("--date", default=date.today().isoformat())
     ap.add_argument("--assets", help="optional folder copied in alongside the page")
     ap.add_argument("--commit", action="store_true", help="git add/commit after building")
@@ -46,7 +46,7 @@ def main():
         if not (a.title and a.description):
             sys.exit("--title and --description are required for a new post")
         cfg["posts"].append(dict(slug=a.slug, title=a.title, description=a.description,
-                                 date=a.date, tag=a.tag))
+                                 date=a.date, tag=a.tag or "Post"))
         print(f"added new post: {a.slug}")
     json.dump(cfg, open(POSTS, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 

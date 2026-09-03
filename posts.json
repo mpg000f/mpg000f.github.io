@@ -1,17 +1,17 @@
 {
   "site": {
     "title": "The Eye Test",
-    "tagline": "Checking what everybody knows against what the data actually says. All sports, no rhetoric.",
+    "tagline": "",
     "author": "Salamander Jefferson",
     "github": "https://github.com/mpg000f"
   },
   "posts": [
     {
       "slug": "allen-vs-jackson",
-      "title": "Josh vs Lamar. Let's settle the debate.",
+      "title": "Josh vs Lamar. A Deep Dive.",
       "description": "Eight seasons of play-by-play on the draft class's longest argument — the close career, Lamar's dominant start, and the six years since.",
       "date": "2026-09-03",
-      "tag": "Post"
+      "tag": "NFL"
     }
   ]
 }

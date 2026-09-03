@@ -16,6 +16,9 @@ def pretty(d):
               "August","September","October","November","December"]
     return f"{months[m-1]} {dd}, {y}"
 
+tagline_html = (f'    <p class="tagline">{esc(site["tagline"])}</p>'
+                if site.get("tagline") else "")
+
 cards = "\n".join(f"""    <li class="post">
       <a href="posts/{p['slug']}/">
         <h2>{esc(p['title'])}</h2>
@@ -31,7 +34,7 @@ doc = f"""<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="{esc(site['tagline'])}">
+<meta name="description" content="{esc(site["tagline"] or site["title"] + " — " + site["author"])}">
 <title>{esc(site['title'])}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,7 +46,7 @@ doc = f"""<!doctype html>
   <header>
     <div class="eyebrow">{esc(site['author'])}</div>
     <h1><a href="./">{esc(site['title'])}</a></h1>
-    <p class="tagline">{esc(site['tagline'])}</p>
+{tagline_html}
   </header>
 
   <ul class="posts">
