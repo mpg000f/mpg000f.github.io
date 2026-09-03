@@ -1,0 +1,17 @@
+{
+  "site": {
+    "title": "Second Level",
+    "tagline": "Sports arguments, worked out from the play-by-play. Mostly football, occasionally not.",
+    "author": "Mitchell Gray",
+    "github": "https://github.com/mpg000f"
+  },
+  "posts": [
+    {
+      "slug": "allen-vs-jackson",
+      "title": "Josh vs Lamar. Let's settle the debate.",
+      "description": "Eight seasons of play-by-play on the draft class's longest argument — the close career, Lamar's dominant start, and the six years since.",
+      "date": "2026-09-03",
+      "tag": "NFL"
+    }
+  ]
+}

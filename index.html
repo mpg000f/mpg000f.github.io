@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Sports arguments, worked out from the play-by-play. Mostly football, occasionally not.">
+<title>Second Level</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Mitchell Gray</div>
+    <h1><a href="./">Second Level</a></h1>
+    <p class="tagline">Sports arguments, worked out from the play-by-play. Mostly football, occasionally not.</p>
+  </header>
+
+  <ul class="posts">
+    <li class="post">
+      <a href="posts/allen-vs-jackson/">
+        <h2>Josh vs Lamar. Let's settle the debate.</h2>
+        <p>Eight seasons of play-by-play on the draft class's longest argument — the close career, Lamar's dominant start, and the six years since.</p>
+        <div class="meta"><span class="tag">NFL</span>
+          <span>September 3, 2026</span></div>
+      </a>
+    </li>
+  </ul>
+
+  <footer>
+    <span>&copy; 2026 Mitchell Gray</span>
+    <span><a href="https://github.com/mpg000f">GitHub</a></span>
+  </footer>
+</div>
+<script>
+(function(){
+  var b=document.createElement('button'); b.className='themebtn'; b.type='button';
+  var root=document.documentElement;
+  function cur(){ return root.getAttribute('data-theme')
+    || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); }
+  function paint(){ b.textContent = cur()==='dark' ? 'Light' : 'Dark';
+    b.setAttribute('aria-label','Switch to '+(cur()==='dark'?'light':'dark')+' theme'); }
+  b.addEventListener('click', function(){
+    root.setAttribute('data-theme', cur()==='dark' ? 'light' : 'dark'); paint(); });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paint);
+  document.body.appendChild(b); paint();
+})();
+</script>
+</body>
+</html>
