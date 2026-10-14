@@ -61,6 +61,35 @@ Use the EP model from https://github.com/nflverse/fastrmodels with those inputs
 to reproduce it. Reasonable changes to elapsed time or punt distance can reverse
 the very small difference from the actual interception.
 
+## Jacksonville counterfactual and video
+
+The second example is the 2023 Week 5 interception against Jacksonville, game
+`2023_05_JAX_BUF`, play 3466. Pre-snap: third-and-15, Buffalo's own 41, 13:16 left
+in the fourth quarter, neutral site, outdoors, Buffalo two timeouts and
+Jacksonville three. nflfastR pre-play EP is **−0.1687361938**. The actual pick
+leaves Jacksonville at its own 7 with 13:06 remaining; EPA is **+0.1921405606**.
+
+The same net-distance model used for qualification estimates **42.4124130** punt
+yards from Buffalo's 41. After a five-second incompletion and seven-second punt,
+Jacksonville would have first-and-10 at its own **16.5875870** with 13:04 remaining,
+three timeouts versus Buffalo's two. Its model EP is negated to express the state
+from Buffalo's perspective, then Buffalo's initial EP is subtracted. Combined
+incompletion-plus-punt EPA is **−0.4622898845**. The interception is therefore
+**0.6544304451 EPA** better than that assumed punt alternative. The interim
+fourth-down EP cancels when the two hypothetical plays are summed. These results
+are stored in `../data/jaguars-counterfactual.json`.
+
+The article uses provider-supported X/Twitter video embeds, obtained from the
+public oEmbed endpoint. Source posts:
+
+- Rams: https://x.com/brgridiron/status/2109819918937911418
+- Jaguars: https://x.com/Jaguars/status/1711050700904415500
+- Official Jaguars fallback: https://www.jaguars.com/video/can-t-miss-play-darious-williams-intercepts-josh-allen-s-60-yard-pass
+
+The football premise of the arm punt is the lack of a safer realistic first-down
+conversion by the time of the decision. The statistical filters do **not** prove
+that premise on a particular snap. Nor do they identify earlier missed reads.
+
 ## Sources, attribution and limitations
 
 - Play-by-play: https://github.com/nflverse/nflverse-data/releases/tag/pbp
