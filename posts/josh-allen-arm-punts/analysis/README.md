@@ -109,3 +109,13 @@ Thresholds were chosen during exploratory analysis of Allen's plays. Nine
 qualifying Allen risk throws underpin the main result. Identical filters and
 opportunity normalization do not establish intent, causality, optimality, or exact
 balance in pressure, coverage, receivers and coaching behavior.
+
+
+## Individual QB comparison and short passes
+Run `python analysis/compare_qbs.py` after `reproduce.py`. The supporting `data/qb-comparison.json` preserves every QB, counts, rates, distance to gain, missingness, conversion outcomes and a throwaway-excluded sensitivity. Individual ranks require at least 100 qualifying opportunities; 39 QBs qualify in this snapshot. Period and eligibility are identical to the headline comparison. The notable-QB table is a named selection; the expandable tables provide all qualified players.
+
+Short of the sticks is `air_yards < ydstogo`, with all known-depth attempts as denominator (including incompletions and recorded throwaways). All 10,905 qualifying attempts have known depth. Conversion is a recorded first down or touchdown, including gains after the catch. A charted checkdown is FTN `read_thrown == "CHK"` and uses all qualifying attempts as denominator. Designed reads, screens, scramble drills and blank reads are not recast as checkdowns. FTN’s dictionary notes that 2022 primary reads were uncoded; these blanks are not missing checkdown classifications by assumption. No claim that all short throws are checkdowns, or all checkdowns are bad decisions, follows from these definitions. Context distributions can differ even under identical inclusion rules.
+
+Mahomes illustration: `2025_14_HOU_KC`, play `3299`: third-and-6 at KC’s own 42, 42 air yards, intercepted by Kamari Lassiter at Houston’s own 16 with no return. Incompletion punt probability 0.991424; expected net punt 42.158944 yards; threshold 32.158944. This play meets the same criteria. Video: https://x.com/MLFootball/status/1997876310484431179. Its source disables off-site embedding; the linked preview opens the original post.
+
+Rams table explicitly distinguishes the observed post-interception field position (LA own 43) from the counterfactual punt estimate (LA own 41.757798, rounded 41.8). We have not modeled an average field position over possible interception returns.
