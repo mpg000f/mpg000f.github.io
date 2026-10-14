@@ -79,8 +79,10 @@ incompletion-plus-punt EPA is **−0.4622898845**. The interception is therefore
 fourth-down EP cancels when the two hypothetical plays are summed. These results
 are stored in `../data/jaguars-counterfactual.json`.
 
-The article uses provider-supported X/Twitter video embeds, obtained from the
-public oEmbed endpoint. Source posts:
+The Rams source marks its video non-embeddable. A visible poster/watch card
+opens the original post. The Jaguars source permits embedding, and its original
+720p hosted media URL is used in a native browser player. No video is rehosted.
+Public oEmbed and syndication responses were used to verify the source posts:
 
 - Rams: https://x.com/brgridiron/status/2109819918937911418
 - Jaguars: https://x.com/Jaguars/status/1711050700904415500
