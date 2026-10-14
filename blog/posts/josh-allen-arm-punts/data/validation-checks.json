@@ -1,0 +1,386 @@
+{
+  "scope": "2022\u20132026 YTD through 2026-10-12",
+  "minimum_qb_attempts": 100,
+  "rank_method": "competition rank, ties share rank",
+  "models": "Frozen original punt-probability and net-distance predictions; no refitting",
+  "thresholds": [
+    {
+      "punt_probability": 0.7,
+      "depth_shortfall_yards": 5,
+      "allen_attempts": 293,
+      "allen_risk": 7,
+      "allen_rate": 2.3890784982935154,
+      "others_attempts": 11017,
+      "others_risk": 49,
+      "others_rate": 0.44476717799764,
+      "allen_rank": 1,
+      "qualified_qbs": 41
+    },
+    {
+      "punt_probability": 0.7,
+      "depth_shortfall_yards": 10,
+      "allen_attempts": 293,
+      "allen_risk": 9,
+      "allen_rate": 3.0716723549488054,
+      "others_attempts": 11017,
+      "others_risk": 66,
+      "others_rate": 0.5990741581192702,
+      "allen_rank": 1,
+      "qualified_qbs": 41
+    },
+    {
+      "punt_probability": 0.7,
+      "depth_shortfall_yards": 15,
+      "allen_attempts": 293,
+      "allen_risk": 9,
+      "allen_rate": 3.0716723549488054,
+      "others_attempts": 11017,
+      "others_risk": 96,
+      "others_rate": 0.8713805936280294,
+      "allen_rank": 1,
+      "qualified_qbs": 41
+    },
+    {
+      "punt_probability": 0.8,
+      "depth_shortfall_yards": 5,
+      "allen_attempts": 284,
+      "allen_risk": 7,
+      "allen_rate": 2.464788732394366,
+      "others_attempts": 10621,
+      "others_risk": 49,
+      "others_rate": 0.4613501553526033,
+      "allen_rank": 1,
+      "qualified_qbs": 39
+    },
+    {
+      "punt_probability": 0.8,
+      "depth_shortfall_yards": 10,
+      "allen_attempts": 284,
+      "allen_risk": 9,
+      "allen_rate": 3.1690140845070425,
+      "others_attempts": 10621,
+      "others_risk": 63,
+      "others_rate": 0.5931644854533471,
+      "allen_rank": 1,
+      "qualified_qbs": 39
+    },
+    {
+      "punt_probability": 0.8,
+      "depth_shortfall_yards": 15,
+      "allen_attempts": 284,
+      "allen_risk": 9,
+      "allen_rate": 3.1690140845070425,
+      "others_attempts": 10621,
+      "others_risk": 91,
+      "others_rate": 0.8567931456548347,
+      "allen_rank": 1,
+      "qualified_qbs": 39
+    },
+    {
+      "punt_probability": 0.9,
+      "depth_shortfall_yards": 5,
+      "allen_attempts": 266,
+      "allen_risk": 7,
+      "allen_rate": 2.6315789473684212,
+      "others_attempts": 9980,
+      "others_risk": 48,
+      "others_rate": 0.48096192384769537,
+      "allen_rank": 1,
+      "qualified_qbs": 37
+    },
+    {
+      "punt_probability": 0.9,
+      "depth_shortfall_yards": 10,
+      "allen_attempts": 266,
+      "allen_risk": 9,
+      "allen_rate": 3.3834586466165413,
+      "others_attempts": 9980,
+      "others_risk": 60,
+      "others_rate": 0.6012024048096193,
+      "allen_rank": 1,
+      "qualified_qbs": 37
+    },
+    {
+      "punt_probability": 0.9,
+      "depth_shortfall_yards": 15,
+      "allen_attempts": 266,
+      "allen_risk": 9,
+      "allen_rate": 3.3834586466165413,
+      "others_attempts": 9980,
+      "others_risk": 85,
+      "others_rate": 0.8517034068136272,
+      "allen_rank": 1,
+      "qualified_qbs": 37
+    }
+  ],
+  "checkdown_coverage": [
+    {
+      "season": 2022,
+      "all_charting_checkdowns": 2803,
+      "eligible_attempts": 2572,
+      "eligible_checkdowns": 355,
+      "eligible_missing_read": 46,
+      "allen_attempts": 67,
+      "allen_checkdowns": 5
+    },
+    {
+      "season": 2023,
+      "all_charting_checkdowns": 3163,
+      "eligible_attempts": 2713,
+      "eligible_checkdowns": 400,
+      "eligible_missing_read": 0,
+      "allen_attempts": 74,
+      "allen_checkdowns": 6
+    },
+    {
+      "season": 2024,
+      "all_charting_checkdowns": 2737,
+      "eligible_attempts": 2439,
+      "eligible_checkdowns": 348,
+      "eligible_missing_read": 0,
+      "allen_attempts": 67,
+      "allen_checkdowns": 7
+    },
+    {
+      "season": 2025,
+      "all_charting_checkdowns": 2539,
+      "eligible_attempts": 2428,
+      "eligible_checkdowns": 284,
+      "eligible_missing_read": 0,
+      "allen_attempts": 53,
+      "allen_checkdowns": 5
+    },
+    {
+      "season": 2026,
+      "all_charting_checkdowns": 705,
+      "eligible_attempts": 753,
+      "eligible_checkdowns": 76,
+      "eligible_missing_read": 0,
+      "allen_attempts": 23,
+      "allen_checkdowns": 0
+    }
+  ],
+  "checkdowns_2023_onward": [
+    {
+      "name": "Brock Purdy",
+      "attempts": 175,
+      "checkdowns": 14,
+      "rate": 8.0
+    },
+    {
+      "name": "Josh Allen",
+      "attempts": 217,
+      "checkdowns": 18,
+      "rate": 8.294930875576037
+    },
+    {
+      "name": "Matthew Stafford",
+      "attempts": 226,
+      "checkdowns": 20,
+      "rate": 8.849557522123893
+    },
+    {
+      "name": "Baker Mayfield",
+      "attempts": 261,
+      "checkdowns": 24,
+      "rate": 9.195402298850574
+    },
+    {
+      "name": "Daniel Jones",
+      "attempts": 136,
+      "checkdowns": 13,
+      "rate": 9.558823529411764
+    },
+    {
+      "name": "Caleb Williams",
+      "attempts": 174,
+      "checkdowns": 17,
+      "rate": 9.770114942528735
+    },
+    {
+      "name": "Lamar Jackson",
+      "attempts": 187,
+      "checkdowns": 19,
+      "rate": 10.16042780748663
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "attempts": 182,
+      "checkdowns": 19,
+      "rate": 10.43956043956044
+    },
+    {
+      "name": "C.J. Stroud",
+      "attempts": 258,
+      "checkdowns": 28,
+      "rate": 10.852713178294573
+    },
+    {
+      "name": "Patrick Mahomes",
+      "attempts": 224,
+      "checkdowns": 25,
+      "rate": 11.160714285714286
+    },
+    {
+      "name": "Trevor Lawrence",
+      "attempts": 224,
+      "checkdowns": 25,
+      "rate": 11.160714285714286
+    },
+    {
+      "name": "Bryce Young",
+      "attempts": 205,
+      "checkdowns": 23,
+      "rate": 11.219512195121952
+    },
+    {
+      "name": "Justin Herbert",
+      "attempts": 248,
+      "checkdowns": 28,
+      "rate": 11.29032258064516
+    },
+    {
+      "name": "Jordan Love",
+      "attempts": 228,
+      "checkdowns": 27,
+      "rate": 11.842105263157894
+    },
+    {
+      "name": "Drake Maye",
+      "attempts": 139,
+      "checkdowns": 17,
+      "rate": 12.23021582733813
+    },
+    {
+      "name": "Dak Prescott",
+      "attempts": 194,
+      "checkdowns": 24,
+      "rate": 12.371134020618557
+    },
+    {
+      "name": "Jalen Hurts",
+      "attempts": 248,
+      "checkdowns": 31,
+      "rate": 12.5
+    },
+    {
+      "name": "Sam Darnold",
+      "attempts": 161,
+      "checkdowns": 21,
+      "rate": 13.043478260869565
+    },
+    {
+      "name": "Justin Fields",
+      "attempts": 119,
+      "checkdowns": 16,
+      "rate": 13.445378151260504
+    },
+    {
+      "name": "Jared Goff",
+      "attempts": 230,
+      "checkdowns": 31,
+      "rate": 13.478260869565217
+    },
+    {
+      "name": "Joe Burrow",
+      "attempts": 181,
+      "checkdowns": 25,
+      "rate": 13.812154696132598
+    },
+    {
+      "name": "Cam Ward",
+      "attempts": 107,
+      "checkdowns": 15,
+      "rate": 14.018691588785046
+    },
+    {
+      "name": "Aaron Rodgers",
+      "attempts": 171,
+      "checkdowns": 24,
+      "rate": 14.035087719298245
+    },
+    {
+      "name": "Jacoby Brissett",
+      "attempts": 113,
+      "checkdowns": 16,
+      "rate": 14.15929203539823
+    },
+    {
+      "name": "Gardner Minshew",
+      "attempts": 120,
+      "checkdowns": 17,
+      "rate": 14.166666666666666
+    },
+    {
+      "name": "Kyler Murray",
+      "attempts": 139,
+      "checkdowns": 20,
+      "rate": 14.388489208633093
+    },
+    {
+      "name": "Mac Jones",
+      "attempts": 134,
+      "checkdowns": 20,
+      "rate": 14.925373134328357
+    },
+    {
+      "name": "Joe Flacco",
+      "attempts": 124,
+      "checkdowns": 19,
+      "rate": 15.32258064516129
+    },
+    {
+      "name": "Russell Wilson",
+      "attempts": 124,
+      "checkdowns": 19,
+      "rate": 15.32258064516129
+    },
+    {
+      "name": "Derek Carr",
+      "attempts": 120,
+      "checkdowns": 21,
+      "rate": 17.5
+    },
+    {
+      "name": "Geno Smith",
+      "attempts": 253,
+      "checkdowns": 47,
+      "rate": 18.57707509881423
+    },
+    {
+      "name": "Bo Nix",
+      "attempts": 241,
+      "checkdowns": 47,
+      "rate": 19.502074688796682
+    },
+    {
+      "name": "Kirk Cousins",
+      "attempts": 173,
+      "checkdowns": 34,
+      "rate": 19.653179190751445
+    },
+    {
+      "name": "Will Levis",
+      "attempts": 103,
+      "checkdowns": 22,
+      "rate": 21.35922330097087
+    }
+  ],
+  "distinct_same_game_interceptions": [
+    {
+      "game_id": "2025_10_BUF_MIA",
+      "distinct_play_ids": [
+        139,
+        3001
+      ]
+    },
+    {
+      "game_id": "2023_16_DET_MIN",
+      "distinct_play_ids": [
+        1865,
+        3529
+      ]
+    }
+  ],
+  "unique_interception_game_play_keys": 41
+}
