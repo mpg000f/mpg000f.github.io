@@ -1,7 +1,32 @@
 {
-  "scope": "2022\u20132025 regular seasons",
+  "scope": "2022\u20132026 YTD regular seasons",
   "as_of": "2026-10-14",
+  "data_through": "2026-10-12",
   "groups": {
+    "allen": {
+      "opportunities": 284,
+      "deep": 32,
+      "interceptions": 6,
+      "extra_risk": 3,
+      "risk": 9,
+      "ftn_only_risk": 9,
+      "deep_pct": 11.267605633802816,
+      "risk_pct": 3.1690140845070425,
+      "risk_on_deep_pct": 28.125
+    },
+    "others": {
+      "opportunities": 10621,
+      "deep": 574,
+      "interceptions": 35,
+      "extra_risk": 28,
+      "risk": 63,
+      "ftn_only_risk": 61,
+      "deep_pct": 5.404387534130496,
+      "risk_pct": 0.5931644854533471,
+      "risk_on_deep_pct": 10.975609756097562
+    }
+  },
+  "historical_groups": {
     "allen": {
       "opportunities": 261,
       "deep": 29,
@@ -28,6 +53,7 @@
   "yearly": [
     {
       "season": 2022,
+      "partial": false,
       "allen": {
         "opportunities": 67,
         "deep": 10,
@@ -41,6 +67,7 @@
     },
     {
       "season": 2023,
+      "partial": false,
       "allen": {
         "opportunities": 74,
         "deep": 5,
@@ -54,6 +81,7 @@
     },
     {
       "season": 2024,
+      "partial": false,
       "allen": {
         "opportunities": 67,
         "deep": 12,
@@ -67,6 +95,7 @@
     },
     {
       "season": 2025,
+      "partial": false,
       "allen": {
         "opportunities": 53,
         "deep": 2,
@@ -76,6 +105,20 @@
         "opportunities": 2375,
         "deep": 146,
         "risk": 17
+      }
+    },
+    {
+      "season": 2026,
+      "partial": true,
+      "allen": {
+        "opportunities": 23,
+        "deep": 3,
+        "risk": 1
+      },
+      "others": {
+        "opportunities": 730,
+        "deep": 49,
+        "risk": 3
       }
     }
   ]

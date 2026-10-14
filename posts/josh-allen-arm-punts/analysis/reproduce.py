@@ -25,7 +25,7 @@ cols=['season','season_type','game_id','game_date','play_id','play_type','down',
 fs=[]
 for y in range(2021,2027):
  p=pd.read_csv(f'{CACHE}/pbp{y}.csv.gz',usecols=cols,low_memory=False)
- p=p[(p.season_type=='REG')&(p.two_point_attempt!=1)]
+ p=p[(p.season_type=='REG')&(p.two_point_attempt!=1)&(p.game_date<='2026-10-12')]
  print('QC',y,'games',p.game_id.nunique(),'maxdate',p.game_date.max(),'duplicate keys',p.duplicated(['game_id','play_id']).sum(),flush=True)
  fs.append(p)
 p=pd.concat(fs,ignore_index=True)
@@ -113,12 +113,12 @@ a.to_pickle(f'{CACHE}/ftn_arm_punt_throws.pkl')
 players=pd.read_csv(f'{CACHE}/players.csv',low_memory=False)
 qbs=set(players.loc[players.position=='QB','gsis_id'])
 a=a[a.passer_player_id.isin(qbs)]
-result={'scope':'2022–2025 regular seasons','groups':{},'yearly':[]}
-for name,s in [('allen',a[(a.season<=2025)&a.passer_player_id.eq('00-0034857')]),('others',a[(a.season<=2025)&~a.passer_player_id.eq('00-0034857')])]:
+result={'scope':'2022–2026 YTD regular seasons','groups':{},'yearly':[]}
+for name,s in [('allen',a[(a.season<=2026)&a.passer_player_id.eq('00-0034857')]),('others',a[(a.season<=2026)&~a.passer_player_id.eq('00-0034857')])]:
     q=s[s.likely_punt];d=q[q.eligible_arm_punt_throw]
     result['groups'][name]={'opportunities':len(q),'deep':len(d),'interceptions':int(d.interception.sum()),'extra_risk':int((d.ftn_risky&d.interception.ne(1)).sum()),'risk':int(d.risk_or_actual_pick.sum()),'ftn_only_risk':int(d.ftn_risky.sum()),'deep_pct':100*len(d)/len(q),'risk_pct':100*d.risk_or_actual_pick.sum()/len(q),'risk_on_deep_pct':100*d.risk_or_actual_pick.mean()}
-for yr,z in a[a.season<=2025].groupby('season'):
-    row={'season':int(yr)}
+for yr,z in a[a.season<=2026].groupby('season'):
+    row={'season':int(yr),'partial':bool(yr==2026)}
     for name,s in [('allen',z[z.passer_player_id.eq('00-0034857')]),('others',z[~z.passer_player_id.eq('00-0034857')])]:
         q=s[s.likely_punt];d=q[q.eligible_arm_punt_throw]
         row[name]={'opportunities':len(q),'deep':len(d),'risk':int(d.risk_or_actual_pick.sum())}

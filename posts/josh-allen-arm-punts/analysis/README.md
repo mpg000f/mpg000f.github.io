@@ -1,7 +1,7 @@
 # Josh Allen and the Arm Punt: reproduction notes
 
-The article's primary comparison covers the **2022–2025 regular seasons**. The
-2026 Rams example is kept separate. `../data/results.json` contains the reviewed
+The article's primary comparison covers the **2022–2026 YTD regular seasons**, through
+October 12, 2026. The 2026 season is partial and labeled throughout. `../data/results.json` contains the reviewed
 headline counts, and `../data/allen-plays.json` contains Allen's qualifying play
 descriptions, IDs, depths, EPA and FTN labels, including the 2026 example.
 
@@ -16,8 +16,7 @@ OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python analysis/reproduce.py
 The script downloads the public sources into an ignored `.cache/` directory,
 fits the decision and net-distance models, joins FTN charting, filters registered
 quarterbacks, and verifies the summary against the article snapshot. Downloads
-include 2021 for training, 2022–2025 for the main analysis, and 2026 for the current
-example. Source files and the player registry can be corrected after publication;
+include 2021 for training, 2022–2026 YTD for the main analysis. The script fixes the game-date cutoff at October 12, 2026. Source files and the player registry can be corrected after publication;
 the final assertions intentionally flag changes rather than overwrite the snapshot.
 Dependencies used for the published calculation include scikit-learn 1.8.0.
 
@@ -75,7 +74,7 @@ JSON datasets are shared under **CC BY-SA 4.0**:
 https://creativecommons.org/licenses/by-sa/4.0/. The flags reflect charting
 judgment, not proof of a dropped interception or the quarterback's intent.
 
-Thresholds were chosen during exploratory analysis of Allen's plays. Eight
+Thresholds were chosen during exploratory analysis of Allen's plays. Nine
 qualifying Allen risk throws underpin the main result. Identical filters and
 opportunity normalization do not establish intent, causality, optimality, or exact
 balance in pressure, coverage, receivers and coaching behavior.
