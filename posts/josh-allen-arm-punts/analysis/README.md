@@ -154,3 +154,18 @@ Run `OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 python analysis/short_pass_outcome
 Allen: 100 short attempts, 72 completed, 35 converted; all 35 conversions came on completed throws (48.6% of completions). Other QBs: 4,776 short attempts, 3,486 completed, 1,062 converted; 1,040 conversions occurred among completed throws (29.8%). Accepted penalties can generate recorded first downs without a completed pass, hence the difference in conversion counts. Short completions can also improve fourth-down viability without immediately converting, so a failed third-down conversion is not automatically treated as an incorrect decision.
 
 Rank clarification: Allen (3.17%), Love (1.74%) and Mahomes (1.72%) rank first through third for qualifying risk outcomes per likely-punt passing opportunity among >=100-attempt QBs. Risk conditional on taking a deep shot differs: 28.1%, 12.1% and 20.0%, respectively. These rankings do not establish conscious intent or strategic optimality.
+
+
+## October 14 validation and robustness update
+
+Run `python analysis/validate_thresholds.py` after generating the original caches. `data/validation-checks.json` records the frozen-model 3×3 threshold grid, seasonal checkdown coverage, a 2023-onward checkdown sensitivity, and distinct game/play keys for the repeated-looking interceptions. Allen ranks first under all nine definitions (70/80/90% punt probability; 5/10/15-yard allowed depth shortfall), with a 100-attempt qualification minimum recomputed for each scenario. This tests definition sensitivity, not intent or overall strategy value.
+
+FTN records CHK in 2022: 2,803 normalized labels across charting and 355 among 2,572 eligible QB attempts. Allen has five in 67 eligible attempts. There are 46 missing read labels among 2022 eligible attempts, retained as unclassified rather than imputed. With 2022 excluded, Allen is second-lowest at 18/217 (8.29%) behind Purdy at 14/175 (8.00%).
+
+The completed-short-pass conversion comparison is 35/72 (48.61%) versus 1,040/3,486 (29.83%). The other-QB 1,062/4,776 (22.24%) figure counts all converted short attempts, including conversions on noncompleted passes. The short-of-sticks baseline excluding Allen is 4,776/10,621 (44.97%); all eligible depths are known.
+
+All 41 interception game/play keys are unique. Tua’s 2025_10_BUF_MIA plays 139 and 3001 and Mullens’ 2023_16_DET_MIN plays 1865 and 3529 independently match distinct raw PBP interception rows and EPA values. The article shows play IDs to distinguish them.
+
+The Rams opener now uses the same field-position model as the full audit: 42.9609 net yards, Rams own 41.0391, punt-sequence EPA −1.27594 versus actual −1.20850, difference +0.06745. This supersedes the earlier league-average punt illustration. Giving every hypothetical punt ten extra net yards flips Allen’s aggregate advantage from +2.42888 to −1.41733 EPA; the article states the sign change explicitly.
+
+This article evaluates risk-taking frequency and interception downside. It deliberately does not estimate the full upside of the 32 deep attempts or claim overall strategic optimality.
