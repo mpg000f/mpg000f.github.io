@@ -1,0 +1,82 @@
+{
+  "scope": "2022\u20132025 regular seasons",
+  "as_of": "2026-10-14",
+  "groups": {
+    "allen": {
+      "opportunities": 261,
+      "deep": 29,
+      "interceptions": 5,
+      "extra_risk": 3,
+      "risk": 8,
+      "ftn_only_risk": 8,
+      "deep_pct": 11.11111111111111,
+      "risk_pct": 3.0651340996168583,
+      "risk_on_deep_pct": 27.586206896551722
+    },
+    "others": {
+      "opportunities": 9891,
+      "deep": 525,
+      "interceptions": 34,
+      "extra_risk": 26,
+      "risk": 60,
+      "ftn_only_risk": 59,
+      "deep_pct": 5.307855626326964,
+      "risk_pct": 0.6066120715802245,
+      "risk_on_deep_pct": 11.428571428571429
+    }
+  },
+  "yearly": [
+    {
+      "season": 2022,
+      "allen": {
+        "opportunities": 67,
+        "deep": 10,
+        "risk": 3
+      },
+      "others": {
+        "opportunities": 2505,
+        "deep": 115,
+        "risk": 12
+      }
+    },
+    {
+      "season": 2023,
+      "allen": {
+        "opportunities": 74,
+        "deep": 5,
+        "risk": 3
+      },
+      "others": {
+        "opportunities": 2639,
+        "deep": 146,
+        "risk": 17
+      }
+    },
+    {
+      "season": 2024,
+      "allen": {
+        "opportunities": 67,
+        "deep": 12,
+        "risk": 1
+      },
+      "others": {
+        "opportunities": 2372,
+        "deep": 118,
+        "risk": 14
+      }
+    },
+    {
+      "season": 2025,
+      "allen": {
+        "opportunities": 53,
+        "deep": 2,
+        "risk": 1
+      },
+      "others": {
+        "opportunities": 2375,
+        "deep": 146,
+        "risk": 17
+      }
+    }
+  ]
+}
