@@ -169,3 +169,8 @@ All 41 interception game/play keys are unique. Tua’s 2025_10_BUF_MIA plays 139
 The Rams opener now uses the same field-position model as the full audit: 42.9609 net yards, Rams own 41.0391, punt-sequence EPA −1.27594 versus actual −1.20850, difference +0.06745. This supersedes the earlier league-average punt illustration. Giving every hypothetical punt ten extra net yards flips Allen’s aggregate advantage from +2.42888 to −1.41733 EPA; the article states the sign change explicitly.
 
 This article evaluates risk-taking frequency and interception downside. It deliberately does not estimate the full upside of the 32 deep attempts or claim overall strategic optimality.
+
+
+## Average interception cost scale reference
+
+`python analysis/average_interception_cost.py` refreshes the 2022–2026 PBP releases and computes official QB interception EPA through October 12, excluding postseason, two-point attempts, nullified plays, spikes and kneels. It verifies unique game/play keys. `data/average-interception-cost.json` records all-QB and Allen-excluded results. Other QBs have 1,663 interceptions totaling −7,359.64973 EPA: −4.42553 per pick, or −26.55316 for six average picks. The article rounds these to −4.43 and −26.6. The illustrative −2.7 is six times a rounded −0.45 extra cost versus punting, whereas −26.6 is the full single-play EPA cost across all interception situations. It is a scale reference, not a matched estimate of strategic savings.
