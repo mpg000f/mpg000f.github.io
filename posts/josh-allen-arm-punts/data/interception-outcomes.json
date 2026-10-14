@@ -1,0 +1,4706 @@
+{
+  "scope": "2022\u20132026 YTD regular seasons through 2026-10-12",
+  "assumptions": {
+    "incompletion_seconds": 5,
+    "punt_seconds": 7,
+    "punt_net": "Same 2021\u20132025 field-position model used for qualification",
+    "delta": "actual interception EPA minus combined incompletion/punt EPA; positive favors actual pick",
+    "materially_worse_threshold": -0.5,
+    "punt_like_field_position": "opponent no more than 10 yards farther forward than modeled punt, or deeper; touchdowns fail",
+    "model_sha256": "14a4b7e0c115d3f46fc9f341a024874b0dbcf44b30bb1f426d4f59b6f175335a",
+    "max_reconstructed_pre_ep_error": 5.10702591327572e-15,
+    "model_feature_order": [
+      "half_seconds_remaining",
+      "yardline_100",
+      "home",
+      "retractable",
+      "dome",
+      "outdoors",
+      "ydstogo",
+      "era0",
+      "era1",
+      "era2",
+      "era3",
+      "era4",
+      "down1",
+      "down2",
+      "down3",
+      "down4",
+      "posteam_timeouts_remaining",
+      "defteam_timeouts_remaining"
+    ]
+  },
+  "groups": {
+    "allen": {
+      "interceptions": 6,
+      "actual_epa_total": -3.5202157296589633,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 6,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -5.949092729832049,
+          "delta_total": 2.4288770001730855,
+          "delta_mean": 0.404812833362181,
+          "delta_median": 0.3609386112948404,
+          "worse_count": 2,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -9.673332185135227,
+          "delta_total": 6.153116455476264,
+          "delta_mean": 1.025519409246044,
+          "delta_median": 0.9866483020596205,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -2.102889936242722,
+          "delta_total": -1.4173257934162418,
+          "delta_mean": -0.23622096556937364,
+          "delta_median": -0.2059506880468699,
+          "worse_count": 3,
+          "materially_worse_count": 2
+        },
+        "faster_sequence": {
+          "punt_epa_total": -5.985334267083093,
+          "delta_total": 2.4651185374241296,
+          "delta_mean": 0.41085308957068833,
+          "delta_median": 0.38487232907209445,
+          "worse_count": 2,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -5.8528429401922075,
+          "delta_total": 2.3326272105332437,
+          "delta_mean": 0.3887712017555407,
+          "delta_median": 0.3163987876614546,
+          "worse_count": 3,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "others": {
+      "interceptions": 35,
+      "actual_epa_total": -62.09795481991023,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 24,
+      "materially_worse_interceptions": 12,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -46.36508417734876,
+          "delta_total": -15.732870642561464,
+          "delta_mean": -0.4495105897874704,
+          "delta_median": -0.24843882583081633,
+          "worse_count": 24,
+          "materially_worse_count": 12
+        },
+        "shorter_punt": {
+          "punt_epa_total": -67.27340565441409,
+          "delta_total": 5.175450834503865,
+          "delta_mean": 0.14787002384296757,
+          "delta_median": 0.399291030829771,
+          "worse_count": 10,
+          "materially_worse_count": 8
+        },
+        "longer_punt": {
+          "punt_epa_total": -26.32569761469495,
+          "delta_total": -35.77225720521528,
+          "delta_mean": -1.0220644915775794,
+          "delta_median": -0.7442113249562683,
+          "worse_count": 31,
+          "materially_worse_count": 25
+        },
+        "faster_sequence": {
+          "punt_epa_total": -46.43698078027228,
+          "delta_total": -15.660974039637948,
+          "delta_mean": -0.4474564011325128,
+          "delta_median": -0.27520708832889706,
+          "worse_count": 23,
+          "materially_worse_count": 13
+        },
+        "slower_sequence": {
+          "punt_epa_total": -46.29587543383241,
+          "delta_total": -15.80207938607782,
+          "delta_mean": -0.4514879824593663,
+          "delta_median": -0.2355616977438344,
+          "worse_count": 24,
+          "materially_worse_count": 12
+        }
+      }
+    }
+  },
+  "yearly": [
+    {
+      "season": 2022,
+      "allen": {
+        "interceptions": 0,
+        "actual_epa_total": 0,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 0,
+        "materially_worse_interceptions": 0,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": 0,
+            "delta_total": 0,
+            "delta_mean": null,
+            "delta_median": null,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "shorter_punt": {
+            "punt_epa_total": 0,
+            "delta_total": 0,
+            "delta_mean": null,
+            "delta_median": null,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "longer_punt": {
+            "punt_epa_total": 0,
+            "delta_total": 0,
+            "delta_mean": null,
+            "delta_median": null,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "faster_sequence": {
+            "punt_epa_total": 0,
+            "delta_total": 0,
+            "delta_mean": null,
+            "delta_median": null,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "slower_sequence": {
+            "punt_epa_total": 0,
+            "delta_total": 0,
+            "delta_mean": null,
+            "delta_median": null,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          }
+        }
+      },
+      "others": {
+        "interceptions": 5,
+        "actual_epa_total": -12.10428773774765,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 1,
+        "materially_worse_interceptions": 4,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -6.479291161755104,
+            "delta_total": -5.624996575992546,
+            "delta_mean": -1.1249993151985092,
+            "delta_median": -1.1586424105334967,
+            "worse_count": 5,
+            "materially_worse_count": 4
+          },
+          "shorter_punt": {
+            "punt_epa_total": -9.471100518247116,
+            "delta_total": -2.6331872195005332,
+            "delta_mean": -0.5266374439001067,
+            "delta_median": -0.5374826299957869,
+            "worse_count": 4,
+            "materially_worse_count": 3
+          },
+          "longer_punt": {
+            "punt_epa_total": -3.5670213981065944,
+            "delta_total": -8.537266339641056,
+            "delta_mean": -1.7074532679282115,
+            "delta_median": -1.7009764343965739,
+            "worse_count": 5,
+            "materially_worse_count": 5
+          },
+          "faster_sequence": {
+            "punt_epa_total": -6.49661857564934,
+            "delta_total": -5.60766916209831,
+            "delta_mean": -1.121533832419662,
+            "delta_median": -1.155663168290624,
+            "worse_count": 5,
+            "materially_worse_count": 4
+          },
+          "slower_sequence": {
+            "punt_epa_total": -6.415861013811086,
+            "delta_total": -5.688426723936565,
+            "delta_mean": -1.1376853447873128,
+            "delta_median": -1.168111331993708,
+            "worse_count": 5,
+            "materially_worse_count": 4
+          }
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "allen": {
+        "interceptions": 3,
+        "actual_epa_total": -0.6872889376245445,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 3,
+        "materially_worse_interceptions": 0,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -2.5386407820042223,
+            "delta_total": 1.851351844379678,
+            "delta_mean": 0.6171172814598926,
+            "delta_median": 0.6544304450508205,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "shorter_punt": {
+            "punt_epa_total": -4.437300927238539,
+            "delta_total": 3.750011989613995,
+            "delta_mean": 1.2500039965379983,
+            "delta_median": 1.3023837367072701,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "longer_punt": {
+            "punt_epa_total": -0.5800958566833289,
+            "delta_total": -0.10719308094121557,
+            "delta_mean": -0.035731026980405194,
+            "delta_median": 0.002521392889320656,
+            "worse_count": 1,
+            "materially_worse_count": 1
+          },
+          "faster_sequence": {
+            "punt_epa_total": -2.5273813905660063,
+            "delta_total": 1.840092452941462,
+            "delta_mean": 0.6133641509804874,
+            "delta_median": 0.6541705916170029,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "slower_sequence": {
+            "punt_epa_total": -2.555670470232144,
+            "delta_total": 1.8683815326075996,
+            "delta_mean": 0.6227938442025333,
+            "delta_median": 0.6784054038580505,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          }
+        }
+      },
+      "others": {
+        "interceptions": 13,
+        "actual_epa_total": -23.945359181088865,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 10,
+        "materially_worse_interceptions": 4,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -18.29557570151519,
+            "delta_total": -5.649783479573674,
+            "delta_mean": -0.43459872919797504,
+            "delta_median": -0.24843882583081633,
+            "worse_count": 8,
+            "materially_worse_count": 4
+          },
+          "shorter_punt": {
+            "punt_epa_total": -26.104381222161464,
+            "delta_total": 2.1590220410725998,
+            "delta_mean": 0.16607861854404612,
+            "delta_median": 0.44730348465964287,
+            "worse_count": 2,
+            "materially_worse_count": 2
+          },
+          "longer_punt": {
+            "punt_epa_total": -10.650118851917796,
+            "delta_total": -13.295240329171069,
+            "delta_mean": -1.0227107945516207,
+            "delta_median": -0.7442113249562683,
+            "worse_count": 11,
+            "materially_worse_count": 9
+          },
+          "faster_sequence": {
+            "punt_epa_total": -18.335088735446334,
+            "delta_total": -5.610270445642531,
+            "delta_mean": -0.4315592650494255,
+            "delta_median": -0.27520708832889706,
+            "worse_count": 8,
+            "materially_worse_count": 5
+          },
+          "slower_sequence": {
+            "punt_epa_total": -18.300075197475962,
+            "delta_total": -5.645283983612902,
+            "delta_mean": -0.43425261412406946,
+            "delta_median": -0.22800432844087393,
+            "worse_count": 8,
+            "materially_worse_count": 4
+          }
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "allen": {
+        "interceptions": 1,
+        "actual_epa_total": -0.286577533697709,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 1,
+        "materially_worse_interceptions": 0,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -1.2804850414395366,
+            "delta_total": 0.9939075077418276,
+            "delta_mean": 0.9939075077418276,
+            "delta_median": 0.9939075077418276,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "shorter_punt": {
+            "punt_epa_total": -1.8932969432789866,
+            "delta_total": 1.6067194095812776,
+            "delta_mean": 1.6067194095812776,
+            "delta_median": 1.6067194095812776,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "longer_punt": {
+            "punt_epa_total": -0.5483302681241218,
+            "delta_total": 0.2617527344264128,
+            "delta_mean": 0.2617527344264128,
+            "delta_median": 0.2617527344264128,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "faster_sequence": {
+            "punt_epa_total": -1.278750908095393,
+            "delta_total": 0.9921733743976839,
+            "delta_mean": 0.9921733743976839,
+            "delta_median": 0.9921733743976839,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "slower_sequence": {
+            "punt_epa_total": -1.2791568899992887,
+            "delta_total": 0.9925793563015797,
+            "delta_mean": 0.9925793563015797,
+            "delta_median": 0.9925793563015797,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          }
+        }
+      },
+      "others": {
+        "interceptions": 7,
+        "actual_epa_total": -12.309856230858713,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 4,
+        "materially_worse_interceptions": 3,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -9.033102826797405,
+            "delta_total": -3.2767534040613078,
+            "delta_mean": -0.46810762915161547,
+            "delta_median": -0.29552043322474253,
+            "worse_count": 4,
+            "materially_worse_count": 3
+          },
+          "shorter_punt": {
+            "punt_epa_total": -12.94671122467844,
+            "delta_total": 0.6368549938197273,
+            "delta_mean": 0.09097928483138962,
+            "delta_median": 0.280284981708969,
+            "worse_count": 3,
+            "materially_worse_count": 2
+          },
+          "longer_punt": {
+            "punt_epa_total": -5.280124327458909,
+            "delta_total": -7.029731903399804,
+            "delta_mean": -1.0042474147714004,
+            "delta_median": -0.7074442505836536,
+            "worse_count": 6,
+            "materially_worse_count": 4
+          },
+          "faster_sequence": {
+            "punt_epa_total": -8.979519838641865,
+            "delta_total": -3.330336392216848,
+            "delta_mean": -0.47576234174526405,
+            "delta_median": -0.29563904274255526,
+            "worse_count": 4,
+            "materially_worse_count": 3
+          },
+          "slower_sequence": {
+            "punt_epa_total": -9.004303663619796,
+            "delta_total": -3.305552567238917,
+            "delta_mean": -0.47222179531984537,
+            "delta_median": -0.29518463229761016,
+            "worse_count": 4,
+            "materially_worse_count": 3
+          }
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "allen": {
+        "interceptions": 1,
+        "actual_epa_total": -1.33785377023742,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 1,
+        "materially_worse_interceptions": 0,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -0.8540246407501398,
+            "delta_total": -0.4838291294872802,
+            "delta_mean": -0.4838291294872802,
+            "delta_median": -0.4838291294872802,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "shorter_punt": {
+            "punt_epa_total": -1.5406516399234533,
+            "delta_total": 0.2027978696860333,
+            "delta_mean": 0.2027978696860333,
+            "delta_median": 0.2027978696860333,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "longer_punt": {
+            "punt_epa_total": -0.18039109231904138,
+            "delta_total": -1.1574626779183785,
+            "delta_mean": -1.1574626779183785,
+            "delta_median": -1.1574626779183785,
+            "worse_count": 1,
+            "materially_worse_count": 1
+          },
+          "faster_sequence": {
+            "punt_epa_total": -0.8551324137952178,
+            "delta_total": -0.48272135644220227,
+            "delta_mean": -0.48272135644220227,
+            "delta_median": -0.48272135644220227,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "slower_sequence": {
+            "punt_epa_total": -0.8551279203966259,
+            "delta_total": -0.48272584984079414,
+            "delta_mean": -0.48272584984079414,
+            "delta_median": -0.48272584984079414,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          }
+        }
+      },
+      "others": {
+        "interceptions": 9,
+        "actual_epa_total": -12.15791686653392,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 8,
+        "materially_worse_interceptions": 1,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -11.186957618920134,
+            "delta_total": -0.9709592476137875,
+            "delta_mean": -0.1078843608459764,
+            "delta_median": -0.02175035083200827,
+            "worse_count": 6,
+            "materially_worse_count": 1
+          },
+          "shorter_punt": {
+            "punt_epa_total": -16.860536576248705,
+            "delta_total": 4.702619709714785,
+            "delta_mean": 0.5225133010794205,
+            "delta_median": 0.6303253681398895,
+            "worse_count": 1,
+            "materially_worse_count": 1
+          },
+          "longer_punt": {
+            "punt_epa_total": -5.87031683017267,
+            "delta_total": -6.287600036361251,
+            "delta_mean": -0.6986222262623611,
+            "delta_median": -0.6968699401477356,
+            "worse_count": 8,
+            "materially_worse_count": 6
+          },
+          "faster_sequence": {
+            "punt_epa_total": -11.256787599646488,
+            "delta_total": -0.9011292668874337,
+            "delta_mean": -0.10012547409860376,
+            "delta_median": -0.0012981616891953873,
+            "worse_count": 5,
+            "materially_worse_count": 1
+          },
+          "slower_sequence": {
+            "punt_epa_total": -11.206539813429119,
+            "delta_total": -0.9513770531048028,
+            "delta_mean": -0.10570856145608921,
+            "delta_median": -0.032284555258224934,
+            "worse_count": 6,
+            "materially_worse_count": 1
+          }
+        }
+      }
+    },
+    {
+      "season": 2026,
+      "allen": {
+        "interceptions": 1,
+        "actual_epa_total": -1.20849548809929,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 1,
+        "materially_worse_interceptions": 0,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -1.2759422656381503,
+            "delta_total": 0.0674467775388603,
+            "delta_mean": 0.0674467775388603,
+            "delta_median": 0.0674467775388603,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "shorter_punt": {
+            "punt_epa_total": -1.8020826746942475,
+            "delta_total": 0.5935871865949576,
+            "delta_mean": 0.5935871865949576,
+            "delta_median": 0.5935871865949576,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "longer_punt": {
+            "punt_epa_total": -0.7940727191162296,
+            "delta_total": -0.4144227689830604,
+            "delta_mean": -0.4144227689830604,
+            "delta_median": -0.4144227689830604,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "faster_sequence": {
+            "punt_epa_total": -1.324069554626476,
+            "delta_total": 0.11557406652718605,
+            "delta_mean": 0.11557406652718605,
+            "delta_median": 0.11557406652718605,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "slower_sequence": {
+            "punt_epa_total": -1.1628876595641486,
+            "delta_total": -0.04560782853514134,
+            "delta_mean": -0.04560782853514134,
+            "delta_median": -0.04560782853514134,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          }
+        }
+      },
+      "others": {
+        "interceptions": 1,
+        "actual_epa_total": -1.58053480368108,
+        "return_touchdowns": 0,
+        "punt_like_field_positions": 1,
+        "materially_worse_interceptions": 0,
+        "scenarios": {
+          "central": {
+            "punt_epa_total": -1.3701568683609318,
+            "delta_total": -0.21037793532014826,
+            "delta_mean": -0.21037793532014826,
+            "delta_median": -0.21037793532014826,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "shorter_punt": {
+            "punt_epa_total": -1.8906761130783658,
+            "delta_total": 0.3101413093972858,
+            "delta_mean": 0.3101413093972858,
+            "delta_median": 0.3101413093972858,
+            "worse_count": 0,
+            "materially_worse_count": 0
+          },
+          "longer_punt": {
+            "punt_epa_total": -0.9581162070389788,
+            "delta_total": -0.6224185966421012,
+            "delta_mean": -0.6224185966421012,
+            "delta_median": -0.6224185966421012,
+            "worse_count": 1,
+            "materially_worse_count": 1
+          },
+          "faster_sequence": {
+            "punt_epa_total": -1.3689660308882545,
+            "delta_total": -0.2115687727928255,
+            "delta_mean": -0.2115687727928255,
+            "delta_median": -0.2115687727928255,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          },
+          "slower_sequence": {
+            "punt_epa_total": -1.369095745496447,
+            "delta_total": -0.21143905818463304,
+            "delta_mean": -0.21143905818463304,
+            "delta_median": -0.21143905818463304,
+            "worse_count": 1,
+            "materially_worse_count": 0
+          }
+        }
+      }
+    }
+  ],
+  "qbs": {
+    "Baker Mayfield": {
+      "interceptions": 1,
+      "actual_epa_total": -1.66975913173519,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.2705076208803785,
+          "delta_total": -0.3992515108548116,
+          "delta_mean": -0.3992515108548116,
+          "delta_median": -0.3992515108548116,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.8472116494085622,
+          "delta_total": 0.1774525176733721,
+          "delta_mean": 0.1774525176733721,
+          "delta_median": 0.1774525176733721,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.5371113612782192,
+          "delta_total": -1.1326477704569708,
+          "delta_mean": -1.1326477704569708,
+          "delta_median": -1.1326477704569708,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.2716655645053816,
+          "delta_total": -0.3980935672298085,
+          "delta_mean": -0.3980935672298085,
+          "delta_median": -0.3980935672298085,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.2704238912556303,
+          "delta_total": -0.3993352404795598,
+          "delta_mean": -0.3993352404795598,
+          "delta_median": -0.3993352404795598,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Blaine Gabbert": {
+      "interceptions": 1,
+      "actual_epa_total": -2.11454349057749,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.1399921886622866,
+          "delta_total": 0.02544869808479655,
+          "delta_mean": 0.02544869808479655,
+          "delta_median": 0.02544869808479655,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.5641167850699236,
+          "delta_total": 0.44957329449243355,
+          "delta_mean": 0.44957329449243355,
+          "delta_median": 0.44957329449243355,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.6717306434875314,
+          "delta_total": -0.4428128470899586,
+          "delta_mean": -0.4428128470899586,
+          "delta_median": -0.4428128470899586,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.208669421263035,
+          "delta_total": 0.09412593068554509,
+          "delta_mean": 0.09412593068554509,
+          "delta_median": 0.09412593068554509,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.12244204129092,
+          "delta_total": 0.00789855071342993,
+          "delta_mean": 0.00789855071342993,
+          "delta_median": 0.00789855071342993,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Carson Wentz": {
+      "interceptions": 1,
+      "actual_epa_total": -1.52826931513846,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.2835401187185194,
+          "delta_total": -0.24472919641994073,
+          "delta_mean": -0.24472919641994073,
+          "delta_median": -0.24472919641994073,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.9275603459682311,
+          "delta_total": 0.399291030829771,
+          "delta_mean": 0.399291030829771,
+          "delta_median": 0.399291030829771,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.6376554209273304,
+          "delta_total": -0.8906138942111297,
+          "delta_mean": -0.8906138942111297,
+          "delta_median": -0.8906138942111297,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.2854018907528366,
+          "delta_total": -0.24286742438562348,
+          "delta_mean": -0.24286742438562348,
+          "delta_median": -0.24286742438562348,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.2927076173946257,
+          "delta_total": -0.2355616977438344,
+          "delta_mean": -0.2355616977438344,
+          "delta_median": -0.2355616977438344,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Cooper Rush": {
+      "interceptions": 1,
+      "actual_epa_total": -1.58717100205831,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.0398660880746324,
+          "delta_total": -0.5473049139836776,
+          "delta_mean": -0.5473049139836776,
+          "delta_median": -0.5473049139836776,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.3288025399087933,
+          "delta_total": -0.2583684621495168,
+          "delta_mean": -0.2583684621495168,
+          "delta_median": -0.2583684621495168,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.8687438334454787,
+          "delta_total": -0.7184271686128314,
+          "delta_mean": -0.7184271686128314,
+          "delta_median": -0.7184271686128314,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -0.9848006390384403,
+          "delta_total": -0.6023703630198698,
+          "delta_mean": -0.6023703630198698,
+          "delta_median": -0.6023703630198698,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.0062558428617199,
+          "delta_total": -0.5809151591965902,
+          "delta_mean": -0.5809151591965902,
+          "delta_median": -0.5809151591965902,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "David Blough": {
+      "interceptions": 1,
+      "actual_epa_total": -2.65236696216743,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.2588912448845844,
+          "delta_total": -1.3934757172828456,
+          "delta_mean": -1.3934757172828456,
+          "delta_median": -1.3934757172828456,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.8441660879179875,
+          "delta_total": -0.8082008742494424,
+          "delta_mean": -0.8082008742494424,
+          "delta_median": -0.8082008742494424,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.7076663651969324,
+          "delta_total": -1.9447005969704976,
+          "delta_mean": -1.9447005969704976,
+          "delta_median": -1.9447005969704976,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.2588912448845844,
+          "delta_total": -1.3934757172828456,
+          "delta_mean": -1.3934757172828456,
+          "delta_median": -1.3934757172828456,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.245577837107707,
+          "delta_total": -1.4067891250597229,
+          "delta_mean": -1.4067891250597229,
+          "delta_median": -1.4067891250597229,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Davis Mills": {
+      "interceptions": 1,
+      "actual_epa_total": -2.25201994320378,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.5273798613343388,
+          "delta_total": -0.7246400818694414,
+          "delta_mean": -0.7246400818694414,
+          "delta_median": -0.7246400818694414,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.084629453951493,
+          "delta_total": -0.16739048925228728,
+          "delta_mean": -0.16739048925228728,
+          "delta_median": -0.16739048925228728,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.8879183263052255,
+          "delta_total": -1.3641016168985547,
+          "delta_mean": -1.3641016168985547,
+          "delta_median": -1.3641016168985547,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.5404280775692314,
+          "delta_total": -0.7115918656345488,
+          "delta_mean": -0.7115918656345488,
+          "delta_median": -0.7115918656345488,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.488681552466005,
+          "delta_total": -0.7633383907377751,
+          "delta_mean": -0.7633383907377751,
+          "delta_median": -0.7633383907377751,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Derek Carr": {
+      "interceptions": 1,
+      "actual_epa_total": -1.78034251229838,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.4848220790736375,
+          "delta_total": -0.29552043322474253,
+          "delta_mean": -0.29552043322474253,
+          "delta_median": -0.29552043322474253,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.060627494007349,
+          "delta_total": 0.280284981708969,
+          "delta_mean": 0.280284981708969,
+          "delta_median": 0.280284981708969,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.0728982617147265,
+          "delta_total": -0.7074442505836536,
+          "delta_mean": -0.7074442505836536,
+          "delta_median": -0.7074442505836536,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.4847034695558248,
+          "delta_total": -0.29563904274255526,
+          "delta_mean": -0.29563904274255526,
+          "delta_median": -0.29563904274255526,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.4851578800007699,
+          "delta_total": -0.29518463229761016,
+          "delta_mean": -0.29518463229761016,
+          "delta_median": -0.29518463229761016,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Drake Maye": {
+      "interceptions": 1,
+      "actual_epa_total": -0.46181279164739,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -0.8834838485345242,
+          "delta_total": 0.42167105688713424,
+          "delta_mean": 0.42167105688713424,
+          "delta_median": 0.42167105688713424,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.5242536901496349,
+          "delta_total": 1.0624408985022449,
+          "delta_mean": 1.0624408985022449,
+          "delta_median": 1.0624408985022449,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.3693098276853559,
+          "delta_total": -0.09250296396203406,
+          "delta_mean": -0.09250296396203406,
+          "delta_median": -0.09250296396203406,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "faster_sequence": {
+          "punt_epa_total": -0.8834877549670634,
+          "delta_total": 0.42167496331967347,
+          "delta_mean": 0.42167496331967347,
+          "delta_median": 0.42167496331967347,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -0.92638966999948,
+          "delta_total": 0.46457687835209005,
+          "delta_mean": 0.46457687835209005,
+          "delta_median": 0.46457687835209005,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Drew Lock": {
+      "interceptions": 1,
+      "actual_epa_total": -0.301653357222676,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.1590942540206015,
+          "delta_total": 0.8574408967979255,
+          "delta_mean": 0.8574408967979255,
+          "delta_median": 0.8574408967979255,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.7244797286111861,
+          "delta_total": 1.42282637138851,
+          "delta_mean": 1.42282637138851,
+          "delta_median": 1.42282637138851,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.3098779432475568,
+          "delta_total": 0.008224586024880798,
+          "delta_mean": 0.008224586024880798,
+          "delta_median": 0.008224586024880798,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.159222255460918,
+          "delta_total": 0.8575688982382419,
+          "delta_mean": 0.8575688982382419,
+          "delta_median": 0.8575688982382419,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.1566731897182763,
+          "delta_total": 0.8550198324956002,
+          "delta_mean": 0.8550198324956002,
+          "delta_median": 0.8550198324956002,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Gardner Minshew": {
+      "interceptions": 1,
+      "actual_epa_total": -2.17650990735274,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.6836475087329743,
+          "delta_total": -0.49286239861976555,
+          "delta_mean": -0.49286239861976555,
+          "delta_median": -0.49286239861976555,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.2787292703287676,
+          "delta_total": 0.10221936297602774,
+          "delta_mean": 0.10221936297602774,
+          "delta_median": 0.10221936297602774,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.1107424197252838,
+          "delta_total": -1.065767487627456,
+          "delta_mean": -1.065767487627456,
+          "delta_median": -1.065767487627456,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.661914506461471,
+          "delta_total": -0.5145954008912688,
+          "delta_mean": -0.5145954008912688,
+          "delta_median": -0.5145954008912688,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.7154334441293029,
+          "delta_total": -0.461076463223437,
+          "delta_mean": -0.461076463223437,
+          "delta_median": -0.461076463223437,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Geno Smith": {
+      "interceptions": 1,
+      "actual_epa_total": -1.15533233905444,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.676439152681267,
+          "delta_total": 0.5211068136268269,
+          "delta_mean": 0.5211068136268269,
+          "delta_median": 0.5211068136268269,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.170532828429712,
+          "delta_total": 1.015200489375272,
+          "delta_mean": 1.015200489375272,
+          "delta_median": 1.015200489375272,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.483798793575259,
+          "delta_total": 0.3284664545208189,
+          "delta_mean": 0.3284664545208189,
+          "delta_median": 0.3284664545208189,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.681536474497987,
+          "delta_total": 0.5262041354435469,
+          "delta_mean": 0.5262041354435469,
+          "delta_median": 0.5262041354435469,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.6585301910527033,
+          "delta_total": 0.5031978519982632,
+          "delta_mean": 0.5031978519982632,
+          "delta_median": 0.5031978519982632,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "J.J. McCarthy": {
+      "interceptions": 1,
+      "actual_epa_total": -1.90980404685251,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.8651300712954255,
+          "delta_total": -0.04467397555708441,
+          "delta_mean": -0.04467397555708441,
+          "delta_median": -0.04467397555708441,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.5486216163262725,
+          "delta_total": 0.6388175694737626,
+          "delta_mean": 0.6388175694737626,
+          "delta_median": 0.6388175694737626,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.1304825544357302,
+          "delta_total": -0.7793214924167797,
+          "delta_mean": -0.7793214924167797,
+          "delta_median": -0.7793214924167797,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.8915895218960943,
+          "delta_total": -0.018214524956415623,
+          "delta_mean": -0.018214524956415623,
+          "delta_median": -0.018214524956415623,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.877519491594285,
+          "delta_total": -0.032284555258224934,
+          "delta_mean": -0.032284555258224934,
+          "delta_median": -0.032284555258224934,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Jake Browning": {
+      "interceptions": 1,
+      "actual_epa_total": -1.31782898318488,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -0.96716934780125,
+          "delta_total": -0.35065963538363,
+          "delta_mean": -0.35065963538363,
+          "delta_median": -0.35065963538363,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.6749688314739657,
+          "delta_total": 0.35713984828908574,
+          "delta_mean": 0.35713984828908574,
+          "delta_median": 0.35713984828908574,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.18476847547572528,
+          "delta_total": -1.1330605077091547,
+          "delta_mean": -1.1330605077091547,
+          "delta_median": -1.1330605077091547,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -0.9672208569245455,
+          "delta_total": -0.35060812626033444,
+          "delta_mean": -0.35060812626033444,
+          "delta_median": -0.35060812626033444,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -0.9429520167177585,
+          "delta_total": -0.37487696646712143,
+          "delta_mean": -0.37487696646712143,
+          "delta_median": -0.37487696646712143,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Jalen Hurts": {
+      "interceptions": 2,
+      "actual_epa_total": -3.38518534461037,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 2,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.5643415119266084,
+          "delta_total": -0.8208438326837613,
+          "delta_mean": -0.41042191634188063,
+          "delta_median": -0.41042191634188063,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -3.7110602138563937,
+          "delta_total": 0.32587486924602405,
+          "delta_mean": 0.16293743462301202,
+          "delta_median": 0.16293743462301202,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.8015397165436247,
+          "delta_total": -1.5836456280667452,
+          "delta_mean": -0.7918228140333726,
+          "delta_median": -0.7918228140333726,
+          "worse_count": 2,
+          "materially_worse_count": 2
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.5987648545997164,
+          "delta_total": -0.7864204900106533,
+          "delta_mean": -0.39321024500532664,
+          "delta_median": -0.39321024500532664,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.532132328022266,
+          "delta_total": -0.8530530165881036,
+          "delta_mean": -0.4265265082940518,
+          "delta_median": -0.4265265082940518,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Jordan Love": {
+      "interceptions": 2,
+      "actual_epa_total": -5.632228449103418,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.239935038145631,
+          "delta_total": -3.3922934109577865,
+          "delta_mean": -1.6961467054788932,
+          "delta_median": -1.6961467054788932,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -3.5627448873128738,
+          "delta_total": -2.0694835617905443,
+          "delta_mean": -1.0347417808952721,
+          "delta_median": -1.0347417808952721,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.8087254422716791,
+          "delta_total": -4.823503006831738,
+          "delta_mean": -2.411751503415869,
+          "delta_median": -2.411751503415869,
+          "worse_count": 2,
+          "materially_worse_count": 2
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.239935038145631,
+          "delta_total": -3.3922934109577865,
+          "delta_mean": -1.6961467054788932,
+          "delta_median": -1.6961467054788932,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.2419287543743844,
+          "delta_total": -3.390299694729033,
+          "delta_mean": -1.6951498473645166,
+          "delta_median": -1.6951498473645166,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Josh Allen": {
+      "interceptions": 6,
+      "actual_epa_total": -3.5202157296589633,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 6,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -5.949092729832049,
+          "delta_total": 2.4288770001730855,
+          "delta_mean": 0.404812833362181,
+          "delta_median": 0.3609386112948404,
+          "worse_count": 2,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -9.673332185135227,
+          "delta_total": 6.153116455476264,
+          "delta_mean": 1.025519409246044,
+          "delta_median": 0.9866483020596205,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -2.102889936242722,
+          "delta_total": -1.4173257934162418,
+          "delta_mean": -0.23622096556937364,
+          "delta_median": -0.2059506880468699,
+          "worse_count": 3,
+          "materially_worse_count": 2
+        },
+        "faster_sequence": {
+          "punt_epa_total": -5.985334267083093,
+          "delta_total": 2.4651185374241296,
+          "delta_mean": 0.41085308957068833,
+          "delta_median": 0.38487232907209445,
+          "worse_count": 2,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -5.8528429401922075,
+          "delta_total": 2.3326272105332437,
+          "delta_mean": 0.3887712017555407,
+          "delta_median": 0.3163987876614546,
+          "worse_count": 3,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Joshua Dobbs": {
+      "interceptions": 1,
+      "actual_epa_total": -2.81191050738562,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -0.7084013374987981,
+          "delta_total": -2.103509169886822,
+          "delta_mean": -2.103509169886822,
+          "delta_median": -2.103509169886822,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.2925062505528322,
+          "delta_total": -1.5194042568327877,
+          "delta_mean": -1.5194042568327877,
+          "delta_median": -1.5194042568327877,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.1750367102213195,
+          "delta_total": -2.6368737971643004,
+          "delta_mean": -2.6368737971643004,
+          "delta_median": -2.6368737971643004,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -0.7078395208809516,
+          "delta_total": -2.1040709865046683,
+          "delta_mean": -2.1040709865046683,
+          "delta_median": -2.1040709865046683,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -0.6972843289840958,
+          "delta_total": -2.114626178401524,
+          "delta_mean": -2.114626178401524,
+          "delta_median": -2.114626178401524,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Justin Herbert": {
+      "interceptions": 1,
+      "actual_epa_total": -2.60237619234249,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.0573894977569633,
+          "delta_total": -0.5449866945855266,
+          "delta_mean": -0.5449866945855266,
+          "delta_median": -0.5449866945855266,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.6023761923424953,
+          "delta_total": 5.329070518200751e-15,
+          "delta_mean": 5.329070518200751e-15,
+          "delta_median": 5.329070518200751e-15,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.5430136737413755,
+          "delta_total": -1.0593625186011144,
+          "delta_mean": -1.0593625186011144,
+          "delta_median": -1.0593625186011144,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.0486593120731467,
+          "delta_total": -0.5537168802693433,
+          "delta_mean": -0.5537168802693433,
+          "delta_median": -0.5537168802693433,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.053816733416175,
+          "delta_total": -0.5485594589263147,
+          "delta_mean": -0.5485594589263147,
+          "delta_median": -0.5485594589263147,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Mac Jones": {
+      "interceptions": 3,
+      "actual_epa_total": -5.225992390653112,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 2,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -4.496781941968949,
+          "delta_total": -0.7292104486841632,
+          "delta_mean": -0.24307014956138773,
+          "delta_median": 0.13249524030834636,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -6.338678689440714,
+          "delta_total": 1.1126862987876018,
+          "delta_mean": 0.37089543292920063,
+          "delta_median": 0.6707333414815386,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -2.9200201632920666,
+          "delta_total": -2.3059722273610457,
+          "delta_mean": -0.7686574091203484,
+          "delta_median": -0.31849550758488276,
+          "worse_count": 3,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -4.496807094663383,
+          "delta_total": -0.7291852959897293,
+          "delta_mean": -0.24306176532990975,
+          "delta_median": 0.1318785911425968,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -4.480549511965366,
+          "delta_total": -0.7454428786877466,
+          "delta_mean": -0.2484809595625822,
+          "delta_median": 0.13317654142156443,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Matthew Stafford": {
+      "interceptions": 1,
+      "actual_epa_total": -4.22542082495056,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.009871434187517,
+          "delta_total": -2.215549390763043,
+          "delta_mean": -2.215549390763043,
+          "delta_median": -2.215549390763043,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.5077014553826307,
+          "delta_total": -1.7177193695679294,
+          "delta_mean": -1.7177193695679294,
+          "delta_median": -1.7177193695679294,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.2222504608798777,
+          "delta_total": -3.0031703640706824,
+          "delta_mean": -3.0031703640706824,
+          "delta_median": -3.0031703640706824,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.0124462249223147,
+          "delta_total": -2.2129746000282453,
+          "delta_mean": -2.2129746000282453,
+          "delta_median": -2.2129746000282453,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.0175367866177116,
+          "delta_total": -2.2078840383328484,
+          "delta_mean": -2.2078840383328484,
+          "delta_median": -2.2078840383328484,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Nick Mullens": {
+      "interceptions": 2,
+      "actual_epa_total": -4.082741272111894,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.6257462636567643,
+          "delta_total": -1.4569950084551297,
+          "delta_mean": -0.7284975042275649,
+          "delta_median": -0.7284975042275649,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -3.910424162168055,
+          "delta_total": -0.1723171099438392,
+          "delta_mean": -0.0861585549719196,
+          "delta_median": -0.0861585549719196,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.5150921167805782,
+          "delta_total": -2.567649155331316,
+          "delta_mean": -1.283824577665658,
+          "delta_median": -1.283824577665658,
+          "worse_count": 2,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.6202900275820857,
+          "delta_total": -1.4624512445298083,
+          "delta_mean": -0.7312256222649042,
+          "delta_median": -0.7312256222649042,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.632071789703331,
+          "delta_total": -1.450669482408563,
+          "delta_mean": -0.7253347412042815,
+          "delta_median": -0.7253347412042815,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "PJ Walker": {
+      "interceptions": 1,
+      "actual_epa_total": -1.00005095382221,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -1.6126207334455096,
+          "delta_total": 0.6125697796232996,
+          "delta_mean": 0.6125697796232996,
+          "delta_median": 0.6125697796232996,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -2.112060180399566,
+          "delta_total": 1.112009226577356,
+          "delta_mean": 1.112009226577356,
+          "delta_median": 1.112009226577356,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.011460056062787,
+          "delta_total": 0.011409102240577118,
+          "delta_mean": 0.011409102240577118,
+          "delta_median": 0.011409102240577118,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "faster_sequence": {
+          "punt_epa_total": -1.6092949886806303,
+          "delta_total": 0.6092440348584203,
+          "delta_mean": 0.6092440348584203,
+          "delta_median": 0.6092440348584203,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -1.6111325083766126,
+          "delta_total": 0.6110815545544026,
+          "delta_mean": 0.6110815545544026,
+          "delta_median": 0.6110815545544026,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Patrick Mahomes": {
+      "interceptions": 3,
+      "actual_epa_total": -3.2430768978083533,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 3,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.9720749512780453,
+          "delta_total": -0.27100194653030774,
+          "delta_mean": -0.09033398217676925,
+          "delta_median": -0.02175035083200827,
+          "worse_count": 3,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -4.80344487959519,
+          "delta_total": 1.5603679817868368,
+          "delta_mean": 0.5201226605956123,
+          "delta_median": 0.4827391289873044,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.4195911127608265,
+          "delta_total": -1.8234857850475266,
+          "delta_mean": -0.6078285950158422,
+          "delta_median": -0.6259113696869454,
+          "worse_count": 3,
+          "materially_worse_count": 3
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.9731198726221915,
+          "delta_total": -0.2699570251861616,
+          "delta_mean": -0.08998567506205386,
+          "delta_median": -0.0012981616891953873,
+          "worse_count": 2,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.952054864610545,
+          "delta_total": -0.29102203319780817,
+          "delta_mean": -0.09700734439926939,
+          "delta_median": -0.06269408366642937,
+          "worse_count": 3,
+          "materially_worse_count": 0
+        }
+      }
+    },
+    "Russell Wilson": {
+      "interceptions": 2,
+      "actual_epa_total": -3.0658667492680207,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 1,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -2.2044575065374388,
+          "delta_total": -0.8614092427305822,
+          "delta_mean": -0.4307046213652911,
+          "delta_median": -0.4307046213652911,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -3.453652270836757,
+          "delta_total": 0.387785521568736,
+          "delta_mean": 0.193892760784368,
+          "delta_median": 0.193892760784368,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.9047818190883858,
+          "delta_total": -2.161084930179635,
+          "delta_mean": -1.0805424650898174,
+          "delta_median": -1.0805424650898174,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -2.2134787307586534,
+          "delta_total": -0.8523880185093675,
+          "delta_mean": -0.42619400925468376,
+          "delta_median": -0.42619400925468376,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -2.2459065769799067,
+          "delta_total": -0.8199601722881142,
+          "delta_mean": -0.4099800861440571,
+          "delta_median": -0.4099800861440571,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Trevor Lawrence": {
+      "interceptions": 1,
+      "actual_epa_total": -2.15900075994432,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 0,
+      "materially_worse_interceptions": 1,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -0.7640847386792307,
+          "delta_total": -1.3949160212650895,
+          "delta_mean": -1.3949160212650895,
+          "delta_median": -1.3949160212650895,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "shorter_punt": {
+          "punt_epa_total": -1.4499026138801132,
+          "delta_total": -0.709098146064207,
+          "delta_mean": -0.709098146064207,
+          "delta_median": -0.709098146064207,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "longer_punt": {
+          "punt_epa_total": -0.0793494582176213,
+          "delta_total": -2.079651301726699,
+          "delta_mean": -2.079651301726699,
+          "delta_median": -2.079651301726699,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "faster_sequence": {
+          "punt_epa_total": -0.7653946108184759,
+          "delta_total": -1.3936061491258442,
+          "delta_mean": -1.3936061491258442,
+          "delta_median": -1.3936061491258442,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        },
+        "slower_sequence": {
+          "punt_epa_total": -0.7701057447120552,
+          "delta_total": -1.388895015232265,
+          "delta_mean": -1.388895015232265,
+          "delta_median": -1.388895015232265,
+          "worse_count": 1,
+          "materially_worse_count": 1
+        }
+      }
+    },
+    "Tua Tagovailoa": {
+      "interceptions": 3,
+      "actual_epa_total": -3.7566906954161863,
+      "return_touchdowns": 0,
+      "punt_like_field_positions": 3,
+      "materially_worse_interceptions": 0,
+      "scenarios": {
+        "central": {
+          "punt_epa_total": -3.86941583757289,
+          "delta_total": 0.11272514215670426,
+          "delta_mean": 0.037575047385568085,
+          "delta_median": 5.089258775337058e-05,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "shorter_punt": {
+          "punt_epa_total": -5.950153537094597,
+          "delta_total": 2.19346284167841,
+          "delta_mean": 0.73115428055947,
+          "delta_median": 0.673704895190897,
+          "worse_count": 0,
+          "materially_worse_count": 0
+        },
+        "longer_punt": {
+          "punt_epa_total": -1.952132658334452,
+          "delta_total": -1.8045580370817342,
+          "delta_mean": -0.6015193456939114,
+          "delta_median": -0.6359928303863831,
+          "worse_count": 3,
+          "materially_worse_count": 2
+        },
+        "faster_sequence": {
+          "punt_epa_total": -3.8714188267476883,
+          "delta_total": 0.11472813133150239,
+          "delta_mean": 0.03824271044383413,
+          "delta_median": 2.220446049250313e-15,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        },
+        "slower_sequence": {
+          "punt_epa_total": -3.8726108404807773,
+          "delta_total": 0.11592014506459136,
+          "delta_mean": 0.03864004835486379,
+          "delta_median": 0.00027470523491723853,
+          "worse_count": 1,
+          "materially_worse_count": 0
+        }
+      }
+    }
+  },
+  "plays": [
+    {
+      "game_id": "2022_02_NE_PIT",
+      "game_date": "2022-09-18",
+      "play_id": 832,
+      "season": 2022,
+      "posteam": "NE",
+      "defteam": "PIT",
+      "ydstogo": 5,
+      "yardline_100": 56.0,
+      "half_seconds_remaining": 953.0,
+      "air_yards": 35.0,
+      "return_yards": 13.0,
+      "ep": 1.29147259052843,
+      "epa": -2.85972100985236,
+      "expected_punt_net": 39.7890057246468,
+      "desc": "(:53) (Shotgun) 10-M.Jones pass deep middle intended for 1-D.Parker INTERCEPTED by 39-M.Fitzpatrick [56-A.Highsmith] at PIT 21. 39-M.Fitzpatrick ran ob at PIT 34 for 13 yards (85-H.Henry).",
+      "qb": "Mac Jones",
+      "qb_id": "00-0036972",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": 1.2914725905284286,
+      "pre_ep_error": -1.5543122344752192e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 39.7890057246468,
+          "receiving_own_yardline": 16.2109942753532,
+          "half_seconds_remaining": 941.0,
+          "combined_incompletion_punt_epa": -1.7010785993188635,
+          "actual_minus_punt_epa": -1.1586424105334967
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 29.7890057246468,
+          "receiving_own_yardline": 26.2109942753532,
+          "half_seconds_remaining": 941.0,
+          "combined_incompletion_punt_epa": -2.3222383798565733,
+          "actual_minus_punt_epa": -0.5374826299957869
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 49.7890057246468,
+          "receiving_own_yardline": 6.210994275353201,
+          "half_seconds_remaining": 941.0,
+          "combined_incompletion_punt_epa": -1.1587445754557864,
+          "actual_minus_punt_epa": -1.7009764343965739
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 39.7890057246468,
+          "receiving_own_yardline": 16.2109942753532,
+          "half_seconds_remaining": 943.0,
+          "combined_incompletion_punt_epa": -1.7040578415617362,
+          "actual_minus_punt_epa": -1.155663168290624
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 39.7890057246468,
+          "receiving_own_yardline": 16.2109942753532,
+          "half_seconds_remaining": 935.0,
+          "combined_incompletion_punt_epa": -1.6916096778586522,
+          "actual_minus_punt_epa": -1.168111331993708
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 34.0,
+      "actual_next_play_id": 863.0,
+      "actual_post_ep_error": -9.769962616701378e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2022_17_CLE_WAS",
+      "game_date": "2023-01-01",
+      "play_id": 991,
+      "season": 2022,
+      "posteam": "WAS",
+      "defteam": "CLE",
+      "ydstogo": 6,
+      "yardline_100": 88.0,
+      "half_seconds_remaining": 803.0,
+      "air_yards": 41.0,
+      "return_yards": 0.0,
+      "ep": -0.800978949060664,
+      "epa": -1.52826931513846,
+      "expected_punt_net": 44.056074928860845,
+      "desc": "(13:23) (Shotgun) 11-C.Wentz pass deep middle intended for 10-C.Samuel INTERCEPTED by 22-G.Delpit at CLE 47. 22-G.Delpit to CLE 47 for no gain (10-C.Samuel).",
+      "qb": "Carson Wentz",
+      "qb_id": "00-0032950",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.8009789490606636,
+      "pre_ep_error": 4.440892098500626e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.056074928860845,
+          "receiving_own_yardline": 43.943925071139155,
+          "half_seconds_remaining": 791.0,
+          "combined_incompletion_punt_epa": -1.2835401187185194,
+          "actual_minus_punt_epa": -0.24472919641994073
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.056074928860845,
+          "receiving_own_yardline": 53.943925071139155,
+          "half_seconds_remaining": 791.0,
+          "combined_incompletion_punt_epa": -1.9275603459682311,
+          "actual_minus_punt_epa": 0.399291030829771
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.056074928860845,
+          "receiving_own_yardline": 33.943925071139155,
+          "half_seconds_remaining": 791.0,
+          "combined_incompletion_punt_epa": -0.6376554209273304,
+          "actual_minus_punt_epa": -0.8906138942111297
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.056074928860845,
+          "receiving_own_yardline": 43.943925071139155,
+          "half_seconds_remaining": 793.0,
+          "combined_incompletion_punt_epa": -1.2854018907528366,
+          "actual_minus_punt_epa": -0.24286742438562348
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.056074928860845,
+          "receiving_own_yardline": 43.943925071139155,
+          "half_seconds_remaining": 785.0,
+          "combined_incompletion_punt_epa": -1.2927076173946257,
+          "actual_minus_punt_epa": -0.2355616977438344
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 47.0,
+      "actual_next_play_id": 1017.0,
+      "actual_post_ep_error": 3.9968028886505635e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2022_18_ARI_SF",
+      "game_date": "2023-01-08",
+      "play_id": 2315,
+      "season": 2022,
+      "posteam": "ARI",
+      "defteam": "SF",
+      "ydstogo": 10,
+      "yardline_100": 85.0,
+      "half_seconds_remaining": 1538.0,
+      "air_yards": 42.0,
+      "return_yards": 23.0,
+      "ep": -1.24825922073796,
+      "epa": -2.65236696216743,
+      "expected_punt_net": 42.96087859567668,
+      "desc": "(10:38) (Shotgun) 17-D.Blough pass deep left intended for 2-M.Brown INTERCEPTED by 31-T.Gipson at SF 43. 31-T.Gipson to ARI 34 for 23 yards (53-B.Price).",
+      "qb": "David Blough",
+      "qb_id": "00-0035040",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -1.248259220737964,
+      "pre_ep_error": -3.9968028886505635e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 42.03912140432332,
+          "half_seconds_remaining": 1526.0,
+          "combined_incompletion_punt_epa": -1.2588912448845844,
+          "actual_minus_punt_epa": -1.3934757172828456
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.96087859567668,
+          "receiving_own_yardline": 52.03912140432332,
+          "half_seconds_remaining": 1526.0,
+          "combined_incompletion_punt_epa": -1.8441660879179875,
+          "actual_minus_punt_epa": -0.8082008742494424
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.96087859567668,
+          "receiving_own_yardline": 32.03912140432332,
+          "half_seconds_remaining": 1526.0,
+          "combined_incompletion_punt_epa": -0.7076663651969324,
+          "actual_minus_punt_epa": -1.9447005969704976
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 42.03912140432332,
+          "half_seconds_remaining": 1528.0,
+          "combined_incompletion_punt_epa": -1.2588912448845844,
+          "actual_minus_punt_epa": -1.3934757172828456
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 42.03912140432332,
+          "half_seconds_remaining": 1520.0,
+          "combined_incompletion_punt_epa": -1.245577837107707,
+          "actual_minus_punt_epa": -1.4067891250597229
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 66.0,
+      "actual_next_play_id": 2341.0,
+      "actual_post_ep_error": -1.021405182655144e-14,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2022_18_HOU_IND",
+      "game_date": "2023-01-08",
+      "play_id": 2929,
+      "season": 2022,
+      "posteam": "HOU",
+      "defteam": "IND",
+      "ydstogo": 8,
+      "yardline_100": 73.0,
+      "half_seconds_remaining": 907.0,
+      "air_yards": 42.0,
+      "return_yards": 11.0,
+      "ep": -0.0735314714256674,
+      "epa": -2.25201994320378,
+      "expected_punt_net": 43.369986587081684,
+      "desc": "(:07) (Shotgun) 10-D.Mills pass deep left intended for 15-C.Moore INTERCEPTED by 25-R.Thomas [55-K.Kareem] at IND 31. 25-R.Thomas pushed ob at IND 42 for 11 yards (28-R.Burkhead).",
+      "qb": "Davis Mills",
+      "qb_id": "00-0036898",
+      "roof": "closed",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": -0.0735314714256674,
+      "pre_ep_error": 0.0,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 895.0,
+          "combined_incompletion_punt_epa": -1.5273798613343388,
+          "actual_minus_punt_epa": -0.7246400818694414
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.369986587081684,
+          "receiving_own_yardline": 39.630013412918316,
+          "half_seconds_remaining": 895.0,
+          "combined_incompletion_punt_epa": -2.084629453951493,
+          "actual_minus_punt_epa": -0.16739048925228728
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.369986587081684,
+          "receiving_own_yardline": 19.630013412918316,
+          "half_seconds_remaining": 895.0,
+          "combined_incompletion_punt_epa": -0.8879183263052255,
+          "actual_minus_punt_epa": -1.3641016168985547
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 897.0,
+          "combined_incompletion_punt_epa": -1.5404280775692314,
+          "actual_minus_punt_epa": -0.7115918656345488
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 889.0,
+          "combined_incompletion_punt_epa": -1.488681552466005,
+          "actual_minus_punt_epa": -0.7633383907377751
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 42.0,
+      "actual_next_play_id": 2979.0,
+      "actual_post_ep_error": 7.549516567451064e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2022_18_TEN_JAX",
+      "game_date": "2023-01-07",
+      "play_id": 2718,
+      "season": 2022,
+      "posteam": "TEN",
+      "defteam": "JAX",
+      "ydstogo": 17,
+      "yardline_100": 87.0,
+      "half_seconds_remaining": 953.0,
+      "air_yards": 41.0,
+      "return_yards": 29.0,
+      "ep": -1.61987379891798,
+      "epa": -2.81191050738562,
+      "expected_punt_net": 44.88632499944959,
+      "desc": "(:53) (Shotgun) 11-J.Dobbs pass deep left intended for 16-T.Burks INTERCEPTED by 32-T.Campbell at JAX 46. 32-T.Campbell to TEN 25 for 29 yards (62-C.Levin).",
+      "qb": "Joshua Dobbs",
+      "qb_id": "00-0033949",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -1.619873798917979,
+      "pre_ep_error": 8.881784197001252e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.88632499944959,
+          "receiving_own_yardline": 42.11367500055041,
+          "half_seconds_remaining": 941.0,
+          "combined_incompletion_punt_epa": -0.7084013374987981,
+          "actual_minus_punt_epa": -2.103509169886822
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.88632499944959,
+          "receiving_own_yardline": 52.11367500055041,
+          "half_seconds_remaining": 941.0,
+          "combined_incompletion_punt_epa": -1.2925062505528322,
+          "actual_minus_punt_epa": -1.5194042568327877
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.88632499944959,
+          "receiving_own_yardline": 32.11367500055041,
+          "half_seconds_remaining": 941.0,
+          "combined_incompletion_punt_epa": -0.1750367102213195,
+          "actual_minus_punt_epa": -2.6368737971643004
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.88632499944959,
+          "receiving_own_yardline": 42.11367500055041,
+          "half_seconds_remaining": 943.0,
+          "combined_incompletion_punt_epa": -0.7078395208809516,
+          "actual_minus_punt_epa": -2.1040709865046683
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.88632499944959,
+          "receiving_own_yardline": 42.11367500055041,
+          "half_seconds_remaining": 935.0,
+          "combined_incompletion_punt_epa": -0.6972843289840958,
+          "actual_minus_punt_epa": -2.114626178401524
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 75.0,
+      "actual_next_play_id": 2744.0,
+      "actual_post_ep_error": 0.0,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2023_01_BUF_NYJ",
+      "game_date": "2023-09-11",
+      "play_id": 993,
+      "season": 2023,
+      "posteam": "BUF",
+      "defteam": "NYJ",
+      "ydstogo": 8,
+      "yardline_100": 69.0,
+      "half_seconds_remaining": 792.0,
+      "air_yards": 65.0,
+      "return_yards": 0.0,
+      "ep": -0.0203041136264801,
+      "epa": 0.0190852037630975,
+      "expected_punt_net": 44.265245502772416,
+      "desc": "(13:12) (Shotgun) 17-J.Allen pass deep middle intended for 11-D.Harty INTERCEPTED by 3-J.Whitehead at NYJ 4. 3-J.Whitehead to NYJ 4 for no gain (11-D.Harty).",
+      "qb": "Josh Allen",
+      "qb_id": "00-0034857",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.020304113626480103,
+      "pre_ep_error": -3.469446951953614e-18,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.265245502772416,
+          "receiving_own_yardline": 24.734754497227584,
+          "half_seconds_remaining": 780.0,
+          "combined_incompletion_punt_epa": -1.2443831469863653,
+          "actual_minus_punt_epa": 1.2634683507494628
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.265245502772416,
+          "receiving_own_yardline": 34.734754497227584,
+          "half_seconds_remaining": 780.0,
+          "combined_incompletion_punt_epa": -1.7576301817316562,
+          "actual_minus_punt_epa": 1.7767153854947537
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.265245502772416,
+          "receiving_own_yardline": 14.734754497227584,
+          "half_seconds_remaining": 780.0,
+          "combined_incompletion_punt_epa": -0.5022998847998679,
+          "actual_minus_punt_epa": 0.5213850885629654
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.265245502772416,
+          "receiving_own_yardline": 24.734754497227584,
+          "half_seconds_remaining": 782.0,
+          "combined_incompletion_punt_epa": -1.2333166571334004,
+          "actual_minus_punt_epa": 1.252401860896498
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.265245502772416,
+          "receiving_own_yardline": 24.734754497227584,
+          "half_seconds_remaining": 774.0,
+          "combined_incompletion_punt_epa": -1.234201275743544,
+          "actual_minus_punt_epa": 1.2532864795066416
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 4.0,
+      "actual_next_play_id": 1020.0,
+      "actual_post_ep_error": 9.71445146547012e-17,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_03_BUF_WAS",
+      "game_date": "2023-09-24",
+      "play_id": 2472,
+      "season": 2023,
+      "posteam": "BUF",
+      "defteam": "WAS",
+      "ydstogo": 20,
+      "yardline_100": 60.0,
+      "half_seconds_remaining": 1294.0,
+      "air_yards": 41.0,
+      "return_yards": 0.0,
+      "ep": 0.047230520285666,
+      "epa": -0.898514701984823,
+      "expected_punt_net": 42.62600979290545,
+      "desc": "(6:34) (Shotgun) 17-J.Allen pass deep left intended for 13-G.Davis INTERCEPTED by 29-K.Fuller at WAS 19. 29-K.Fuller to WAS 19 for no gain (13-G.Davis). WAS-29-K.Fuller was injured during the play.",
+      "qb": "Josh Allen",
+      "qb_id": "00-0034857",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.04723052028566599,
+      "pre_ep_error": -1.3877787807814457e-17,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.62600979290545,
+          "receiving_own_yardline": 17.37399020709455,
+          "half_seconds_remaining": 1282.0,
+          "combined_incompletion_punt_epa": -0.8319677505642176,
+          "actual_minus_punt_epa": -0.0665469514206054
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.62600979290545,
+          "receiving_own_yardline": 27.37399020709455,
+          "half_seconds_remaining": 1282.0,
+          "combined_incompletion_punt_epa": -1.5694275693967938,
+          "actual_minus_punt_epa": 0.6709128674119709
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.62600979290545,
+          "receiving_own_yardline": 7.37399020709455,
+          "half_seconds_remaining": 1282.0,
+          "combined_incompletion_punt_epa": -0.26741513959132135,
+          "actual_minus_punt_epa": -0.6310995623935016
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.62600979290545,
+          "receiving_own_yardline": 17.37399020709455,
+          "half_seconds_remaining": 1284.0,
+          "combined_incompletion_punt_epa": -0.8320347024127841,
+          "actual_minus_punt_epa": -0.06647999957203887
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.62600979290545,
+          "receiving_own_yardline": 17.37399020709455,
+          "half_seconds_remaining": 1276.0,
+          "combined_incompletion_punt_epa": -0.8352043512277305,
+          "actual_minus_punt_epa": -0.06331035075709246
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 19.0,
+      "actual_next_play_id": 2502.0,
+      "actual_post_ep_error": 0.0,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_03_NO_GB",
+      "game_date": "2023-09-24",
+      "play_id": 2220,
+      "season": 2023,
+      "posteam": "GB",
+      "defteam": "NO",
+      "ydstogo": 14,
+      "yardline_100": 79.0,
+      "half_seconds_remaining": 1705.0,
+      "air_yards": 41.0,
+      "return_yards": 0.0,
+      "ep": -0.776944546028972,
+      "epa": -0.887144241016358,
+      "expected_punt_net": 43.42231065142097,
+      "desc": "(13:25) (Shotgun) 10-J.Love pass deep right intended for 87-R.Doubs INTERCEPTED by 28-L.Johnson at NO 38. 28-L.Johnson to NO 38 for no gain (87-R.Doubs).",
+      "qb": "Jordan Love",
+      "qb_id": "00-0036264",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.7769445460289717,
+      "pre_ep_error": 3.3306690738754696e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.42231065142097,
+          "receiving_own_yardline": 35.57768934857903,
+          "half_seconds_remaining": 1693.0,
+          "combined_incompletion_punt_epa": -0.8618972497060892,
+          "actual_minus_punt_epa": -0.025246991310268863
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.42231065142097,
+          "receiving_own_yardline": 45.57768934857903,
+          "half_seconds_remaining": 1693.0,
+          "combined_incompletion_punt_epa": -1.552063984330743,
+          "actual_minus_punt_epa": 0.6649197433143851
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.42231065142097,
+          "receiving_own_yardline": 25.577689348579028,
+          "half_seconds_remaining": 1693.0,
+          "combined_incompletion_punt_epa": -0.14293291606008973,
+          "actual_minus_punt_epa": -0.7442113249562683
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.42231065142097,
+          "receiving_own_yardline": 35.57768934857903,
+          "half_seconds_remaining": 1695.0,
+          "combined_incompletion_punt_epa": -0.8618972497060892,
+          "actual_minus_punt_epa": -0.025246991310268863
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.42231065142097,
+          "receiving_own_yardline": 35.57768934857903,
+          "half_seconds_remaining": 1687.0,
+          "combined_incompletion_punt_epa": -0.862884987145662,
+          "actual_minus_punt_epa": -0.02425925387069605
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 38.0,
+      "actual_next_play_id": 2247.0,
+      "actual_post_ep_error": 0.0,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_04_LV_LAC",
+      "game_date": "2023-10-01",
+      "play_id": 3002,
+      "season": 2023,
+      "posteam": "LAC",
+      "defteam": "LV",
+      "ydstogo": 10,
+      "yardline_100": 50.0,
+      "half_seconds_remaining": 1031.0,
+      "air_yards": 27.0,
+      "return_yards": 16.0,
+      "ep": 1.70222424762324,
+      "epa": -2.60237619234249,
+      "expected_punt_net": 36.45327018756975,
+      "desc": "(2:11) (Shotgun) 10-J.Herbert pass deep right intended for 5-J.Palmer INTERCEPTED by 25-T.Moehrig at LV 23. 25-T.Moehrig pushed ob at LAC 36 for 41 yards (79-T.Pipkins). LAC-10-J.Herbert was injured during the play. PENALTY on LV-41-R.Spillane, Illegal Blindside Block, 15 yards, enforced at LV 39.",
+      "qb": "Justin Herbert",
+      "qb_id": "00-0036355",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.702224247623235,
+      "pre_ep_error": -5.10702591327572e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 36.45327018756975,
+          "receiving_own_yardline": 13.54672981243025,
+          "half_seconds_remaining": 1019.0,
+          "combined_incompletion_punt_epa": -2.0573894977569633,
+          "actual_minus_punt_epa": -0.5449866945855266
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 26.45327018756975,
+          "receiving_own_yardline": 23.54672981243025,
+          "half_seconds_remaining": 1019.0,
+          "combined_incompletion_punt_epa": -2.6023761923424953,
+          "actual_minus_punt_epa": 5.329070518200751e-15
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 46.45327018756975,
+          "receiving_own_yardline": 3.54672981243025,
+          "half_seconds_remaining": 1019.0,
+          "combined_incompletion_punt_epa": -1.5430136737413755,
+          "actual_minus_punt_epa": -1.0593625186011144
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 36.45327018756975,
+          "receiving_own_yardline": 13.54672981243025,
+          "half_seconds_remaining": 1021.0,
+          "combined_incompletion_punt_epa": -2.0486593120731467,
+          "actual_minus_punt_epa": -0.5537168802693433
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 36.45327018756975,
+          "receiving_own_yardline": 13.54672981243025,
+          "half_seconds_remaining": 1013.0,
+          "combined_incompletion_punt_epa": -2.053816733416175,
+          "actual_minus_punt_epa": -0.5485594589263147
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 24.0,
+      "actual_next_play_id": 3045.0,
+      "actual_post_ep_error": -5.329070518200751e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2023_05_JAX_BUF",
+      "game_date": "2023-10-08",
+      "play_id": 3466,
+      "season": 2023,
+      "posteam": "BUF",
+      "defteam": "JAX",
+      "ydstogo": 15,
+      "yardline_100": 59.0,
+      "half_seconds_remaining": 796.0,
+      "air_yards": 52.0,
+      "return_yards": 0.0,
+      "ep": -0.168736193794757,
+      "epa": 0.192140560597181,
+      "expected_punt_net": 42.41241304366694,
+      "desc": "(13:16) (Shotgun) 17-J.Allen pass deep right intended for 14-S.Diggs INTERCEPTED by 31-Dari.Williams at JAX 7. 31-Dari.Williams to JAX 7 for no gain (14-S.Diggs).",
+      "qb": "Josh Allen",
+      "qb_id": "00-0034857",
+      "roof": "outdoors",
+      "neutral_site": true,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.16873619379475713,
+      "pre_ep_error": -1.3877787807814457e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.41241304366694,
+          "receiving_own_yardline": 16.587586956333062,
+          "half_seconds_remaining": 784.0,
+          "combined_incompletion_punt_epa": -0.4622898844536395,
+          "actual_minus_punt_epa": 0.6544304450508205
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.41241304366694,
+          "receiving_own_yardline": 26.587586956333062,
+          "half_seconds_remaining": 784.0,
+          "combined_incompletion_punt_epa": -1.110243176110089,
+          "actual_minus_punt_epa": 1.3023837367072701
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.41241304366694,
+          "receiving_own_yardline": 6.5875869563330625,
+          "half_seconds_remaining": 784.0,
+          "combined_incompletion_punt_epa": 0.18961916770786033,
+          "actual_minus_punt_epa": 0.002521392889320656
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.41241304366694,
+          "receiving_own_yardline": 16.587586956333062,
+          "half_seconds_remaining": 786.0,
+          "combined_incompletion_punt_epa": -0.4620300310198219,
+          "actual_minus_punt_epa": 0.6541705916170029
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.41241304366694,
+          "receiving_own_yardline": 16.587586956333062,
+          "half_seconds_remaining": 778.0,
+          "combined_incompletion_punt_epa": -0.4862648432608695,
+          "actual_minus_punt_epa": 0.6784054038580505
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 7.0,
+      "actual_next_play_id": 3504.0,
+      "actual_post_ep_error": 1.942890293094024e-16,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_07_CLE_IND",
+      "game_date": "2023-10-22",
+      "play_id": 3858,
+      "season": 2023,
+      "posteam": "CLE",
+      "defteam": "IND",
+      "ydstogo": 16,
+      "yardline_100": 47.0,
+      "half_seconds_remaining": 674.0,
+      "air_yards": 45.0,
+      "return_yards": 0.0,
+      "ep": 1.0062090260908,
+      "epa": -1.00005095382221,
+      "expected_punt_net": 34.866607407079805,
+      "desc": "(11:14) (Shotgun) 10-P.Walker pass deep left intended for 2-A.Cooper INTERCEPTED by 25-R.Thomas at IND 2. 25-R.Thomas to IND 2 for no gain (2-A.Cooper).",
+      "qb": "PJ Walker",
+      "qb_id": "00-0033275",
+      "roof": "open",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.0062090260908008,
+      "pre_ep_error": 6.661338147750939e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 34.866607407079805,
+          "receiving_own_yardline": 12.133392592920195,
+          "half_seconds_remaining": 662.0,
+          "combined_incompletion_punt_epa": -1.6126207334455096,
+          "actual_minus_punt_epa": 0.6125697796232996
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 24.866607407079805,
+          "receiving_own_yardline": 22.133392592920195,
+          "half_seconds_remaining": 662.0,
+          "combined_incompletion_punt_epa": -2.112060180399566,
+          "actual_minus_punt_epa": 1.112009226577356
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 44.866607407079805,
+          "receiving_own_yardline": 2.1333925929201953,
+          "half_seconds_remaining": 662.0,
+          "combined_incompletion_punt_epa": -1.011460056062787,
+          "actual_minus_punt_epa": 0.011409102240577118
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 34.866607407079805,
+          "receiving_own_yardline": 12.133392592920195,
+          "half_seconds_remaining": 664.0,
+          "combined_incompletion_punt_epa": -1.6092949886806303,
+          "actual_minus_punt_epa": 0.6092440348584203
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 34.866607407079805,
+          "receiving_own_yardline": 12.133392592920195,
+          "half_seconds_remaining": 656.0,
+          "combined_incompletion_punt_epa": -1.6111325083766126,
+          "actual_minus_punt_epa": 0.6110815545544026
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 2.0,
+      "actual_next_play_id": 3885.0,
+      "actual_post_ep_error": 2.220446049250313e-16,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_07_LAC_KC",
+      "game_date": "2023-10-22",
+      "play_id": 1579,
+      "season": 2023,
+      "posteam": "KC",
+      "defteam": "LAC",
+      "ydstogo": 12,
+      "yardline_100": 61.0,
+      "half_seconds_remaining": 352.0,
+      "air_yards": 40.0,
+      "return_yards": 0.0,
+      "ep": 0.351846018340439,
+      "epa": -0.864063890650868,
+      "expected_punt_net": 43.78564700692021,
+      "desc": "(5:52) (Shotgun) 15-P.Mahomes pass deep left intended for 12-M.Hardman INTERCEPTED by 26-A.Samuel [52-K.Mack] at LAC 21. 26-A.Samuel to LAC 21 for no gain (12-M.Hardman).",
+      "qb": "Patrick Mahomes",
+      "qb_id": "00-0033873",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.3518460183404386,
+      "pre_ep_error": -3.885780586188048e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.78564700692021,
+          "receiving_own_yardline": 17.214352993079792,
+          "half_seconds_remaining": 340.0,
+          "combined_incompletion_punt_epa": -0.6156250648200516,
+          "actual_minus_punt_epa": -0.24843882583081633
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.78564700692021,
+          "receiving_own_yardline": 27.214352993079792,
+          "half_seconds_remaining": 340.0,
+          "combined_incompletion_punt_epa": -1.3113673753105108,
+          "actual_minus_punt_epa": 0.44730348465964287
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.78564700692021,
+          "receiving_own_yardline": 7.2143529930797925,
+          "half_seconds_remaining": 340.0,
+          "combined_incompletion_punt_epa": -0.23815252096392253,
+          "actual_minus_punt_epa": -0.6259113696869454
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.78564700692021,
+          "receiving_own_yardline": 17.214352993079792,
+          "half_seconds_remaining": 342.0,
+          "combined_incompletion_punt_epa": -0.5888568023219709,
+          "actual_minus_punt_epa": -0.27520708832889706
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.78564700692021,
+          "receiving_own_yardline": 17.214352993079792,
+          "half_seconds_remaining": 334.0,
+          "combined_incompletion_punt_epa": -0.636059562209994,
+          "actual_minus_punt_epa": -0.22800432844087393
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 21.0,
+      "actual_next_play_id": 1606.0,
+      "actual_post_ep_error": -1.1102230246251565e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_08_MIN_GB",
+      "game_date": "2023-10-29",
+      "play_id": 2727,
+      "season": 2023,
+      "posteam": "GB",
+      "defteam": "MIN",
+      "ydstogo": 8,
+      "yardline_100": 73.0,
+      "half_seconds_remaining": 1388.0,
+      "air_yards": 36.0,
+      "return_yards": 43.0,
+      "ep": 0.217711864504963,
+      "epa": -4.74508420808706,
+      "expected_punt_net": 43.369986587081684,
+      "desc": "(8:08) (Shotgun) 10-J.Love pass deep middle intended for 11-J.Reed INTERCEPTED by 44-J.Metellus at MIN 37. 44-J.Metellus pushed ob at GB 20 for 43 yards (74-E.Jenkins).",
+      "qb": "Jordan Love",
+      "qb_id": "00-0036264",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.21771186450496316,
+      "pre_ep_error": 1.6653345369377348e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 1376.0,
+          "combined_incompletion_punt_epa": -1.3780377884395418,
+          "actual_minus_punt_epa": -3.367046419647518
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.369986587081684,
+          "receiving_own_yardline": 39.630013412918316,
+          "half_seconds_remaining": 1376.0,
+          "combined_incompletion_punt_epa": -2.0106809029821306,
+          "actual_minus_punt_epa": -2.7344033051049292
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.369986587081684,
+          "receiving_own_yardline": 19.630013412918316,
+          "half_seconds_remaining": 1376.0,
+          "combined_incompletion_punt_epa": -0.6657925262115894,
+          "actual_minus_punt_epa": -4.07929168187547
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 1378.0,
+          "combined_incompletion_punt_epa": -1.3780377884395418,
+          "actual_minus_punt_epa": -3.367046419647518
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 1370.0,
+          "combined_incompletion_punt_epa": -1.3790437672287224,
+          "actual_minus_punt_epa": -3.3660404408583373
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 80.0,
+      "actual_next_play_id": 2759.0,
+      "actual_post_ep_error": -3.552713678800501e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2023_10_TEN_TB",
+      "game_date": "2023-11-12",
+      "play_id": 511,
+      "season": 2023,
+      "posteam": "TB",
+      "defteam": "TEN",
+      "ydstogo": 15,
+      "yardline_100": 42.0,
+      "half_seconds_remaining": 1217.0,
+      "air_yards": 42.0,
+      "return_yards": 18.0,
+      "ep": 1.38475236087106,
+      "epa": -1.66975913173519,
+      "expected_punt_net": 30.858112397378147,
+      "desc": "(5:17) (Shotgun) 6-B.Mayfield pass deep middle intended for 83-D.Thompkins INTERCEPTED by 21-R.McCreary at TEN -1. 21-R.McCreary to TEN 17 for 18 yards (83-D.Thompkins; 14-C.Godwin).",
+      "qb": "Baker Mayfield",
+      "qb_id": "00-0034855",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.3847523608710617,
+      "pre_ep_error": 1.7763568394002505e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 30.858112397378147,
+          "receiving_own_yardline": 11.141887602621853,
+          "half_seconds_remaining": 1205.0,
+          "combined_incompletion_punt_epa": -1.2705076208803785,
+          "actual_minus_punt_epa": -0.3992515108548116
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 20.858112397378147,
+          "receiving_own_yardline": 21.141887602621853,
+          "half_seconds_remaining": 1205.0,
+          "combined_incompletion_punt_epa": -1.8472116494085622,
+          "actual_minus_punt_epa": 0.1774525176733721
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 40.85811239737815,
+          "receiving_own_yardline": 1.1418876026218499,
+          "half_seconds_remaining": 1205.0,
+          "combined_incompletion_punt_epa": -0.5371113612782192,
+          "actual_minus_punt_epa": -1.1326477704569708
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 30.858112397378147,
+          "receiving_own_yardline": 11.141887602621853,
+          "half_seconds_remaining": 1207.0,
+          "combined_incompletion_punt_epa": -1.2716655645053816,
+          "actual_minus_punt_epa": -0.3980935672298085
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 30.858112397378147,
+          "receiving_own_yardline": 11.141887602621853,
+          "half_seconds_remaining": 1199.0,
+          "combined_incompletion_punt_epa": -1.2704238912556303,
+          "actual_minus_punt_epa": -0.3993352404795598
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 17.0,
+      "actual_next_play_id": 538.0,
+      "actual_post_ep_error": 1.1102230246251565e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_11_SEA_LA",
+      "game_date": "2023-11-19",
+      "play_id": 3678,
+      "season": 2023,
+      "posteam": "SEA",
+      "defteam": "LA",
+      "ydstogo": 11,
+      "yardline_100": 76.0,
+      "half_seconds_remaining": 411.0,
+      "air_yards": 40.0,
+      "return_yards": 0.0,
+      "ep": -0.561876116786152,
+      "epa": -0.301653357222676,
+      "expected_punt_net": 43.726060965320734,
+      "desc": "(6:51) (Shotgun) 2-D.Lock pass deep left intended for 16-T.Lockett INTERCEPTED by 1-D.Kendrick at LA 36. 1-D.Kendrick pushed ob at LA 36 for no gain (16-T.Lockett). PENALTY on LA, Unsportsmanlike Conduct, 15 yards, enforced at LA 36.",
+      "qb": "Drew Lock",
+      "qb_id": "00-0035704",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.5618761167861521,
+      "pre_ep_error": -1.1102230246251565e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.726060965320734,
+          "receiving_own_yardline": 32.273939034679266,
+          "half_seconds_remaining": 399.0,
+          "combined_incompletion_punt_epa": -1.1590942540206015,
+          "actual_minus_punt_epa": 0.8574408967979255
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.726060965320734,
+          "receiving_own_yardline": 42.273939034679266,
+          "half_seconds_remaining": 399.0,
+          "combined_incompletion_punt_epa": -1.7244797286111861,
+          "actual_minus_punt_epa": 1.42282637138851
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.726060965320734,
+          "receiving_own_yardline": 22.273939034679266,
+          "half_seconds_remaining": 399.0,
+          "combined_incompletion_punt_epa": -0.3098779432475568,
+          "actual_minus_punt_epa": 0.008224586024880798
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.726060965320734,
+          "receiving_own_yardline": 32.273939034679266,
+          "half_seconds_remaining": 401.0,
+          "combined_incompletion_punt_epa": -1.159222255460918,
+          "actual_minus_punt_epa": 0.8575688982382419
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.726060965320734,
+          "receiving_own_yardline": 32.273939034679266,
+          "half_seconds_remaining": 393.0,
+          "combined_incompletion_punt_epa": -1.1566731897182763,
+          "actual_minus_punt_epa": 0.8550198324956002
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 21.0,
+      "actual_next_play_id": 3721.0,
+      "actual_post_ep_error": 5.551115123125783e-17,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_16_DET_MIN",
+      "game_date": "2023-12-24",
+      "play_id": 1865,
+      "season": 2023,
+      "posteam": "MIN",
+      "defteam": "DET",
+      "ydstogo": 7,
+      "yardline_100": 82.0,
+      "half_seconds_remaining": 168.0,
+      "air_yards": 37.0,
+      "return_yards": 22.0,
+      "ep": -0.141680997796357,
+      "epa": -3.29522801743588,
+      "expected_punt_net": 44.34325778739954,
+      "desc": "(2:48) (Shotgun) 12-N.Mullens pass deep left intended for 3-J.Addison INTERCEPTED by 31-K.Joseph at DET 45. 31-K.Joseph pushed ob at MIN 33 for 22 yards (66-D.Risner).",
+      "qb": "Nick Mullens",
+      "qb_id": "00-0033319",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": -0.14168099779635668,
+      "pre_ep_error": 3.3306690738754696e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.34325778739954,
+          "receiving_own_yardline": 37.65674221260046,
+          "half_seconds_remaining": 156.0,
+          "combined_incompletion_punt_epa": -1.597599209286272,
+          "actual_minus_punt_epa": -1.697628808149608
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.34325778739954,
+          "receiving_own_yardline": 47.65674221260046,
+          "half_seconds_remaining": 156.0,
+          "combined_incompletion_punt_epa": -2.205360839143395,
+          "actual_minus_punt_epa": -1.0898671782924851
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.34325778739954,
+          "receiving_own_yardline": 27.656742212600463,
+          "half_seconds_remaining": 156.0,
+          "combined_incompletion_punt_epa": -1.035943618509918,
+          "actual_minus_punt_epa": -2.259284398925962
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.34325778739954,
+          "receiving_own_yardline": 37.65674221260046,
+          "half_seconds_remaining": 158.0,
+          "combined_incompletion_punt_epa": -1.5926277149701487,
+          "actual_minus_punt_epa": -1.7026003024657315
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.34325778739954,
+          "receiving_own_yardline": 37.65674221260046,
+          "half_seconds_remaining": 150.0,
+          "combined_incompletion_punt_epa": -1.6216298410436134,
+          "actual_minus_punt_epa": -1.6735981763922667
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 67.0,
+      "actual_next_play_id": 1897.0,
+      "actual_post_ep_error": 7.105427357601002e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2023_16_DET_MIN",
+      "game_date": "2023-12-24",
+      "play_id": 3529,
+      "season": 2023,
+      "posteam": "MIN",
+      "defteam": "DET",
+      "ydstogo": 18,
+      "yardline_100": 83.0,
+      "half_seconds_remaining": 600.0,
+      "air_yards": 48.0,
+      "return_yards": 0.0,
+      "ep": -0.950964209157974,
+      "epa": -0.787513254676014,
+      "expected_punt_net": 45.30181437699505,
+      "desc": "(10:00) (Shotgun) 12-N.Mullens pass deep left intended for 18-J.Jefferson INTERCEPTED by 31-K.Joseph at DET 35. 31-K.Joseph pushed ob at DET 35 for no gain (18-J.Jefferson).",
+      "qb": "Nick Mullens",
+      "qb_id": "00-0033319",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.9509642091579735,
+      "pre_ep_error": 4.440892098500626e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 45.30181437699505,
+          "receiving_own_yardline": 37.69818562300495,
+          "half_seconds_remaining": 588.0,
+          "combined_incompletion_punt_epa": -1.0281470543704923,
+          "actual_minus_punt_epa": 0.2406337996944783
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 35.30181437699505,
+          "receiving_own_yardline": 47.69818562300495,
+          "half_seconds_remaining": 588.0,
+          "combined_incompletion_punt_epa": -1.70506332302466,
+          "actual_minus_punt_epa": 0.9175500683486459
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 55.30181437699505,
+          "receiving_own_yardline": 27.698185623004953,
+          "half_seconds_remaining": 588.0,
+          "combined_incompletion_punt_epa": -0.4791484982706602,
+          "actual_minus_punt_epa": -0.30836475640535377
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 45.30181437699505,
+          "receiving_own_yardline": 37.69818562300495,
+          "half_seconds_remaining": 590.0,
+          "combined_incompletion_punt_epa": -1.027662312611937,
+          "actual_minus_punt_epa": 0.24014905793592312
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 45.30181437699505,
+          "receiving_own_yardline": 37.69818562300495,
+          "half_seconds_remaining": 582.0,
+          "combined_incompletion_punt_epa": -1.0104419486597176,
+          "actual_minus_punt_epa": 0.22292869398370363
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 35.0,
+      "actual_next_play_id": 3561.0,
+      "actual_post_ep_error": -1.9984014443252818e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_16_IND_ATL",
+      "game_date": "2023-12-24",
+      "play_id": 3658,
+      "season": 2023,
+      "posteam": "IND",
+      "defteam": "ATL",
+      "ydstogo": 10,
+      "yardline_100": 84.0,
+      "half_seconds_remaining": 483.0,
+      "air_yards": 34.0,
+      "return_yards": 0.0,
+      "ep": -0.538535558851436,
+      "epa": -2.17650990735274,
+      "expected_punt_net": 42.96087859567668,
+      "desc": "(8:03) (Shotgun) 10-G.Minshew pass deep middle intended for 14-A.Pierce INTERCEPTED by 3-J.Bates [17-A.Ebiketie] at 50. 3-J.Bates to 50 for no gain (14-A.Pierce).",
+      "qb": "Gardner Minshew",
+      "qb_id": "00-0035289",
+      "roof": "closed",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": -0.5385355588514358,
+      "pre_ep_error": 2.220446049250313e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 41.03912140432332,
+          "half_seconds_remaining": 471.0,
+          "combined_incompletion_punt_epa": -1.6836475087329743,
+          "actual_minus_punt_epa": -0.49286239861976555
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.96087859567668,
+          "receiving_own_yardline": 51.03912140432332,
+          "half_seconds_remaining": 471.0,
+          "combined_incompletion_punt_epa": -2.2787292703287676,
+          "actual_minus_punt_epa": 0.10221936297602774
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.96087859567668,
+          "receiving_own_yardline": 31.039121404323318,
+          "half_seconds_remaining": 471.0,
+          "combined_incompletion_punt_epa": -1.1107424197252838,
+          "actual_minus_punt_epa": -1.065767487627456
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 41.03912140432332,
+          "half_seconds_remaining": 473.0,
+          "combined_incompletion_punt_epa": -1.661914506461471,
+          "actual_minus_punt_epa": -0.5145954008912688
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 41.03912140432332,
+          "half_seconds_remaining": 465.0,
+          "combined_incompletion_punt_epa": -1.7154334441293029,
+          "actual_minus_punt_epa": -0.461076463223437
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 50.0,
+      "actual_next_play_id": 3693.0,
+      "actual_post_ep_error": 6.217248937900877e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_18_BUF_MIA",
+      "game_date": "2024-01-07",
+      "play_id": 158,
+      "season": 2023,
+      "posteam": "MIA",
+      "defteam": "BUF",
+      "ydstogo": 7,
+      "yardline_100": 56.0,
+      "half_seconds_remaining": 1669.0,
+      "air_yards": 40.0,
+      "return_yards": 0.0,
+      "ep": 1.458235044498,
+      "epa": -1.6967819952406,
+      "expected_punt_net": 39.7890057246468,
+      "desc": "(12:49) (Shotgun) 1-T.Tagovailoa pass deep left intended for 10-T.Hill INTERCEPTED by 47-C.Benford at BUF 16. 47-C.Benford to BUF 16 for no gain (10-T.Hill).",
+      "qb": "Tua Tagovailoa",
+      "qb_id": "00-0036212",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.4582350444979966,
+      "pre_ep_error": -3.3306690738754696e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 39.7890057246468,
+          "receiving_own_yardline": 16.2109942753532,
+          "half_seconds_remaining": 1657.0,
+          "combined_incompletion_punt_epa": -1.6968328878283534,
+          "actual_minus_punt_epa": 5.089258775337058e-05
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 29.7890057246468,
+          "receiving_own_yardline": 26.2109942753532,
+          "half_seconds_remaining": 1657.0,
+          "combined_incompletion_punt_epa": -2.370486890431497,
+          "actual_minus_punt_epa": 0.673704895190897
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 49.7890057246468,
+          "receiving_own_yardline": 6.210994275353201,
+          "half_seconds_remaining": 1657.0,
+          "combined_incompletion_punt_epa": -1.060789164854217,
+          "actual_minus_punt_epa": -0.6359928303863831
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 39.7890057246468,
+          "receiving_own_yardline": 16.2109942753532,
+          "half_seconds_remaining": 1659.0,
+          "combined_incompletion_punt_epa": -1.6967819952406022,
+          "actual_minus_punt_epa": 2.220446049250313e-15
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 39.7890057246468,
+          "receiving_own_yardline": 16.2109942753532,
+          "half_seconds_remaining": 1651.0,
+          "combined_incompletion_punt_epa": -1.6970567004755173,
+          "actual_minus_punt_epa": 0.00027470523491723853
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 16.0,
+      "actual_next_play_id": 195.0,
+      "actual_post_ep_error": -1.7763568394002505e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_18_KC_LAC",
+      "game_date": "2024-01-07",
+      "play_id": 2000,
+      "season": 2023,
+      "posteam": "KC",
+      "defteam": "LAC",
+      "ydstogo": 10,
+      "yardline_100": 51.0,
+      "half_seconds_remaining": 96.0,
+      "air_yards": 39.0,
+      "return_yards": 0.0,
+      "ep": 1.53198535693809,
+      "epa": -2.11454349057749,
+      "expected_punt_net": 38.11772136093938,
+      "desc": "(1:36) (Shotgun) 9-B.Gabbert pass deep right intended for 12-M.Hardman INTERCEPTED by 32-A.Gilman [52-K.Mack] at LAC 12. 32-A.Gilman to LAC 12 for no gain (17-R.James).",
+      "qb": "Blaine Gabbert",
+      "qb_id": "00-0027948",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.531985356938094,
+      "pre_ep_error": 3.9968028886505635e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 38.11772136093938,
+          "receiving_own_yardline": 12.882278639060623,
+          "half_seconds_remaining": 84.0,
+          "combined_incompletion_punt_epa": -2.1399921886622866,
+          "actual_minus_punt_epa": 0.02544869808479655
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 28.117721360939377,
+          "receiving_own_yardline": 22.882278639060623,
+          "half_seconds_remaining": 84.0,
+          "combined_incompletion_punt_epa": -2.5641167850699236,
+          "actual_minus_punt_epa": 0.44957329449243355
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 48.11772136093938,
+          "receiving_own_yardline": 2.8822786390606225,
+          "half_seconds_remaining": 84.0,
+          "combined_incompletion_punt_epa": -1.6717306434875314,
+          "actual_minus_punt_epa": -0.4428128470899586
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 38.11772136093938,
+          "receiving_own_yardline": 12.882278639060623,
+          "half_seconds_remaining": 86.0,
+          "combined_incompletion_punt_epa": -2.208669421263035,
+          "actual_minus_punt_epa": 0.09412593068554509
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 38.11772136093938,
+          "receiving_own_yardline": 12.882278639060623,
+          "half_seconds_remaining": 78.0,
+          "combined_incompletion_punt_epa": -2.12244204129092,
+          "actual_minus_punt_epa": 0.00789855071342993
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 12.0,
+      "actual_next_play_id": 2027.0,
+      "actual_post_ep_error": 5.329070518200751e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2023_18_PHI_NYG",
+      "game_date": "2024-01-07",
+      "play_id": 1919,
+      "season": 2023,
+      "posteam": "PHI",
+      "defteam": "NYG",
+      "ydstogo": 8,
+      "yardline_100": 73.0,
+      "half_seconds_remaining": 94.0,
+      "air_yards": 37.0,
+      "return_yards": 0.0,
+      "ep": 0.222784426063299,
+      "epa": -1.80465054092929,
+      "expected_punt_net": 43.369986587081684,
+      "desc": "(1:34) (Shotgun) 1-J.Hurts pass incomplete deep left to 80-J.Jones (29-X.McKinney). The Replay Official reviewed the incomplete pass ruling, and the play was REVERSED. (Shotgun) 1-J.Hurts pass deep left intended for 80-J.Jones INTERCEPTED by 29-X.McKinney at NYG 36. 29-X.McKinney ran ob at NYG 36 for no gain.",
+      "qb": "Jalen Hurts",
+      "qb_id": "00-0036389",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.22278442606329918,
+      "pre_ep_error": 1.6653345369377348e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 82.0,
+          "combined_incompletion_punt_epa": -1.1941846435656769,
+          "actual_minus_punt_epa": -0.610465897363613
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.369986587081684,
+          "receiving_own_yardline": 39.630013412918316,
+          "half_seconds_remaining": 82.0,
+          "combined_incompletion_punt_epa": -1.8203841007780281,
+          "actual_minus_punt_epa": 0.015733559848738254
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.369986587081684,
+          "receiving_own_yardline": 19.630013412918316,
+          "half_seconds_remaining": 82.0,
+          "combined_incompletion_punt_epa": -0.8434235095046458,
+          "actual_minus_punt_epa": -0.961227031424644
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 84.0,
+          "combined_incompletion_punt_epa": -1.229798823711462,
+          "actual_minus_punt_epa": -0.5748517172178278
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.369986587081684,
+          "receiving_own_yardline": 29.630013412918316,
+          "half_seconds_remaining": 76.0,
+          "combined_incompletion_punt_epa": -1.1630365825258193,
+          "actual_minus_punt_epa": -0.6416139584034706
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 36.0,
+      "actual_next_play_id": 1997.0,
+      "actual_post_ep_error": 8.881784197001252e-16,
+      "punt_like_field_position": true,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2024_05_GB_LA",
+      "game_date": "2024-10-06",
+      "play_id": 2545,
+      "season": 2024,
+      "posteam": "LA",
+      "defteam": "GB",
+      "ydstogo": 10,
+      "yardline_100": 48.0,
+      "half_seconds_remaining": 1395.0,
+      "air_yards": 30.0,
+      "return_yards": 28.0,
+      "ep": 1.79389207973145,
+      "epa": -4.22542082495056,
+      "expected_punt_net": 35.82337890932831,
+      "desc": "(8:15) (Shotgun) 9-M.Stafford pass deep left intended for 5-T.Atwell INTERCEPTED by 29-X.McKinney [94-K.Brooks] at GB 18. 29-X.McKinney to GB 46 for 28 yards (87-D.Allen).",
+      "qb": "Matthew Stafford",
+      "qb_id": "00-0026498",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.7938920797314495,
+      "pre_ep_error": -4.440892098500626e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 35.82337890932831,
+          "receiving_own_yardline": 12.176621090671688,
+          "half_seconds_remaining": 1383.0,
+          "combined_incompletion_punt_epa": -2.009871434187517,
+          "actual_minus_punt_epa": -2.215549390763043
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 25.823378909328312,
+          "receiving_own_yardline": 22.176621090671688,
+          "half_seconds_remaining": 1383.0,
+          "combined_incompletion_punt_epa": -2.5077014553826307,
+          "actual_minus_punt_epa": -1.7177193695679294
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 45.82337890932831,
+          "receiving_own_yardline": 2.176621090671688,
+          "half_seconds_remaining": 1383.0,
+          "combined_incompletion_punt_epa": -1.2222504608798777,
+          "actual_minus_punt_epa": -3.0031703640706824
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 35.82337890932831,
+          "receiving_own_yardline": 12.176621090671688,
+          "half_seconds_remaining": 1385.0,
+          "combined_incompletion_punt_epa": -2.0124462249223147,
+          "actual_minus_punt_epa": -2.2129746000282453
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 35.82337890932831,
+          "receiving_own_yardline": 12.176621090671688,
+          "half_seconds_remaining": 1377.0,
+          "combined_incompletion_punt_epa": -2.0175367866177116,
+          "actual_minus_punt_epa": -2.2078840383328484
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 46.0,
+      "actual_next_play_id": 2579.0,
+      "actual_post_ep_error": 0.0,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2024_10_PIT_WAS",
+      "game_date": "2024-11-10",
+      "play_id": 3284,
+      "season": 2024,
+      "posteam": "PIT",
+      "defteam": "WAS",
+      "ydstogo": 14,
+      "yardline_100": 80.0,
+      "half_seconds_remaining": 994.0,
+      "air_yards": 54.0,
+      "return_yards": 0.0,
+      "ep": -1.19819439947605,
+      "epa": -0.191649750806391,
+      "expected_punt_net": 43.42231065142097,
+      "desc": "(1:34) (No Huddle, Shotgun) 3-R.Wilson pass deep left intended for 14-G.Pickens INTERCEPTED by 11-J.Chinn at WAS 26. 11-J.Chinn to WAS 26 for no gain (14-G.Pickens).",
+      "qb": "Russell Wilson",
+      "qb_id": "00-0029263",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -1.1981943994760513,
+      "pre_ep_error": -1.3322676295501878e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.42231065142097,
+          "receiving_own_yardline": 36.57768934857903,
+          "half_seconds_remaining": 982.0,
+          "combined_incompletion_punt_epa": -0.9387551441323025,
+          "actual_minus_punt_epa": 0.7471053933259115
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.42231065142097,
+          "receiving_own_yardline": 46.57768934857903,
+          "half_seconds_remaining": 982.0,
+          "combined_incompletion_punt_epa": -1.5832368119154139,
+          "actual_minus_punt_epa": 1.3915870611090229
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.42231065142097,
+          "receiving_own_yardline": 26.577689348579028,
+          "half_seconds_remaining": 982.0,
+          "combined_incompletion_punt_epa": -0.2756067253649248,
+          "actual_minus_punt_epa": 0.08395697455853382
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.42231065142097,
+          "receiving_own_yardline": 36.57768934857903,
+          "half_seconds_remaining": 984.0,
+          "combined_incompletion_punt_epa": -0.9394256412051631,
+          "actual_minus_punt_epa": 0.7477758903987721
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.42231065142097,
+          "receiving_own_yardline": 36.57768934857903,
+          "half_seconds_remaining": 976.0,
+          "combined_incompletion_punt_epa": -0.9363075753208263,
+          "actual_minus_punt_epa": 0.7446578245144353
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 26.0,
+      "actual_next_play_id": 3311.0,
+      "actual_post_ep_error": 1.0824674490095276e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2024_13_HOU_JAX",
+      "game_date": "2024-12-01",
+      "play_id": 1070,
+      "season": 2024,
+      "posteam": "JAX",
+      "defteam": "HOU",
+      "ydstogo": 11,
+      "yardline_100": 77.0,
+      "half_seconds_remaining": 813.0,
+      "air_yards": 52.0,
+      "return_yards": 31.0,
+      "ep": -0.859600560739636,
+      "epa": -2.15900075994432,
+      "expected_punt_net": 44.16689067511193,
+      "desc": "(13:33) (Shotgun) 16-T.Lawrence pass deep middle intended for 7-B.Thomas INTERCEPTED by 24-D.Stingley at HOU 25. 24-D.Stingley to JAX 44 for 31 yards (4-T.Bigsby).",
+      "qb": "Trevor Lawrence",
+      "qb_id": "00-0036971",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": -0.8596005607396364,
+      "pre_ep_error": -4.440892098500626e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.16689067511193,
+          "receiving_own_yardline": 32.83310932488807,
+          "half_seconds_remaining": 801.0,
+          "combined_incompletion_punt_epa": -0.7640847386792307,
+          "actual_minus_punt_epa": -1.3949160212650895
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.16689067511193,
+          "receiving_own_yardline": 42.83310932488807,
+          "half_seconds_remaining": 801.0,
+          "combined_incompletion_punt_epa": -1.4499026138801132,
+          "actual_minus_punt_epa": -0.709098146064207
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.16689067511193,
+          "receiving_own_yardline": 22.83310932488807,
+          "half_seconds_remaining": 801.0,
+          "combined_incompletion_punt_epa": -0.0793494582176213,
+          "actual_minus_punt_epa": -2.079651301726699
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.16689067511193,
+          "receiving_own_yardline": 32.83310932488807,
+          "half_seconds_remaining": 803.0,
+          "combined_incompletion_punt_epa": -0.7653946108184759,
+          "actual_minus_punt_epa": -1.3936061491258442
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.16689067511193,
+          "receiving_own_yardline": 32.83310932488807,
+          "half_seconds_remaining": 795.0,
+          "combined_incompletion_punt_epa": -0.7701057447120552,
+          "actual_minus_punt_epa": -1.388895015232265
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 56.0,
+      "actual_next_play_id": 1097.0,
+      "actual_post_ep_error": -3.9968028886505635e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2024_14_NO_NYG",
+      "game_date": "2024-12-08",
+      "play_id": 2708,
+      "season": 2024,
+      "posteam": "NO",
+      "defteam": "NYG",
+      "ydstogo": 10,
+      "yardline_100": 52.0,
+      "half_seconds_remaining": 1482.0,
+      "air_yards": 35.0,
+      "return_yards": 0.0,
+      "ep": 0.999026035889983,
+      "epa": -1.78034251229838,
+      "expected_punt_net": 38.747220444577,
+      "desc": "(9:42) (Shotgun) 4-D.Carr pass deep left intended for 81-K.Austin INTERCEPTED by 37-T.Hawkins at NYG 17. 37-T.Hawkins to NYG 17 for no gain (81-K.Austin).",
+      "qb": "Derek Carr",
+      "qb_id": "00-0031280",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.9990260358899832,
+      "pre_ep_error": 2.220446049250313e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 38.747220444577,
+          "receiving_own_yardline": 13.252779555422997,
+          "half_seconds_remaining": 1470.0,
+          "combined_incompletion_punt_epa": -1.4848220790736375,
+          "actual_minus_punt_epa": -0.29552043322474253
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 28.747220444577003,
+          "receiving_own_yardline": 23.252779555422997,
+          "half_seconds_remaining": 1470.0,
+          "combined_incompletion_punt_epa": -2.060627494007349,
+          "actual_minus_punt_epa": 0.280284981708969
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 48.747220444577,
+          "receiving_own_yardline": 3.252779555422997,
+          "half_seconds_remaining": 1470.0,
+          "combined_incompletion_punt_epa": -1.0728982617147265,
+          "actual_minus_punt_epa": -0.7074442505836536
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 38.747220444577,
+          "receiving_own_yardline": 13.252779555422997,
+          "half_seconds_remaining": 1472.0,
+          "combined_incompletion_punt_epa": -1.4847034695558248,
+          "actual_minus_punt_epa": -0.29563904274255526
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 38.747220444577,
+          "receiving_own_yardline": 13.252779555422997,
+          "half_seconds_remaining": 1464.0,
+          "combined_incompletion_punt_epa": -1.4851578800007699,
+          "actual_minus_punt_epa": -0.29518463229761016
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 17.0,
+      "actual_next_play_id": 2735.0,
+      "actual_post_ep_error": 5.10702591327572e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2024_15_NYJ_JAX",
+      "game_date": "2024-12-15",
+      "play_id": 813,
+      "season": 2024,
+      "posteam": "JAX",
+      "defteam": "NYJ",
+      "ydstogo": 14,
+      "yardline_100": 59.0,
+      "half_seconds_remaining": 1088.0,
+      "air_yards": 47.0,
+      "return_yards": 0.0,
+      "ep": 0.629844003356993,
+      "epa": -0.615633171517402,
+      "expected_punt_net": 42.41241304366694,
+      "desc": "(3:08) (Shotgun) 10-M.Jones pass deep middle intended for 12-D.Duvernay INTERCEPTED by 35-J.Mills [54-J.Kinlaw] at NYJ 12. 35-J.Mills to NYJ 12 for no gain (12-D.Duvernay).",
+      "qb": "Mac Jones",
+      "qb_id": "00-0036972",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.6298440033569932,
+      "pre_ep_error": 2.220446049250313e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.41241304366694,
+          "receiving_own_yardline": 16.587586956333062,
+          "half_seconds_remaining": 1076.0,
+          "combined_incompletion_punt_epa": -0.9125698930583892,
+          "actual_minus_punt_epa": 0.29693672154098716
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.41241304366694,
+          "receiving_own_yardline": 26.587586956333062,
+          "half_seconds_remaining": 1076.0,
+          "combined_incompletion_punt_epa": -1.595068758819252,
+          "actual_minus_punt_epa": 0.97943558730185
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.41241304366694,
+          "receiving_own_yardline": 6.5875869563330625,
+          "half_seconds_remaining": 1076.0,
+          "combined_incompletion_punt_epa": -0.3291328861378131,
+          "actual_minus_punt_epa": -0.28650028537958894
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.41241304366694,
+          "receiving_own_yardline": 16.587586956333062,
+          "half_seconds_remaining": 1078.0,
+          "combined_incompletion_punt_epa": -0.9102324526757,
+          "actual_minus_punt_epa": 0.2945992811582979
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.41241304366694,
+          "receiving_own_yardline": 16.587586956333062,
+          "half_seconds_remaining": 1070.0,
+          "combined_incompletion_punt_epa": -0.905125083401799,
+          "actual_minus_punt_epa": 0.28949191188439694
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 12.0,
+      "actual_next_play_id": 852.0,
+      "actual_post_ep_error": 3.3306690738754696e-16,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2024_16_NE_BUF",
+      "game_date": "2024-12-22",
+      "play_id": 1500,
+      "season": 2024,
+      "posteam": "BUF",
+      "defteam": "NE",
+      "ydstogo": 16,
+      "yardline_100": 44.0,
+      "half_seconds_remaining": 492.0,
+      "air_yards": 44.0,
+      "return_yards": 6.0,
+      "ep": 1.32563060591929,
+      "epa": -0.286577533697709,
+      "expected_punt_net": 31.637399233660624,
+      "desc": "(8:12) (Shotgun) 17-J.Allen pass deep middle intended for 0-K.Coleman INTERCEPTED by 15-M.Mapu at NE -5. 15-M.Mapu to NE 1 for 6 yards (26-Ty.Johnson).",
+      "qb": "Josh Allen",
+      "qb_id": "00-0034857",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": 1.3256306059192866,
+      "pre_ep_error": -3.3306690738754696e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 31.637399233660624,
+          "receiving_own_yardline": 12.362600766339376,
+          "half_seconds_remaining": 480.0,
+          "combined_incompletion_punt_epa": -1.2804850414395366,
+          "actual_minus_punt_epa": 0.9939075077418276
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 21.637399233660624,
+          "receiving_own_yardline": 22.362600766339376,
+          "half_seconds_remaining": 480.0,
+          "combined_incompletion_punt_epa": -1.8932969432789866,
+          "actual_minus_punt_epa": 1.6067194095812776
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 41.637399233660624,
+          "receiving_own_yardline": 2.3626007663393764,
+          "half_seconds_remaining": 480.0,
+          "combined_incompletion_punt_epa": -0.5483302681241218,
+          "actual_minus_punt_epa": 0.2617527344264128
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 31.637399233660624,
+          "receiving_own_yardline": 12.362600766339376,
+          "half_seconds_remaining": 482.0,
+          "combined_incompletion_punt_epa": -1.278750908095393,
+          "actual_minus_punt_epa": 0.9921733743976839
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 31.637399233660624,
+          "receiving_own_yardline": 12.362600766339376,
+          "half_seconds_remaining": 474.0,
+          "combined_incompletion_punt_epa": -1.2791568899992887,
+          "actual_minus_punt_epa": 0.9925793563015797
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 1.0,
+      "actual_next_play_id": 1527.0,
+      "actual_post_ep_error": -8.881784197001252e-16,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2024_17_DAL_PHI",
+      "game_date": "2024-12-29",
+      "play_id": 2044,
+      "season": 2024,
+      "posteam": "DAL",
+      "defteam": "PHI",
+      "ydstogo": 6,
+      "yardline_100": 58.0,
+      "half_seconds_remaining": 50.0,
+      "air_yards": 48.0,
+      "return_yards": 25.0,
+      "ep": 0.893381329311524,
+      "epa": -1.58717100205831,
+      "expected_punt_net": 42.15894367099041,
+      "desc": "(:50) (Shotgun) 10-C.Rush pass deep left intended for 3-B.Cooks INTERCEPTED by 8-C.Gardner-Johnson at PHI 10. 8-C.Gardner-Johnson to PHI 35 for 25 yards (23-R.Dowdle).",
+      "qb": "Cooper Rush",
+      "qb_id": "00-0033662",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 1.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": 0.8933813293115236,
+      "pre_ep_error": -4.440892098500626e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 38.0,
+          "combined_incompletion_punt_epa": -1.0398660880746324,
+          "actual_minus_punt_epa": -0.5473049139836776
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.15894367099041,
+          "receiving_own_yardline": 25.84105632900959,
+          "half_seconds_remaining": 38.0,
+          "combined_incompletion_punt_epa": -1.3288025399087933,
+          "actual_minus_punt_epa": -0.2583684621495168
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.15894367099041,
+          "receiving_own_yardline": 5.841056329009589,
+          "half_seconds_remaining": 38.0,
+          "combined_incompletion_punt_epa": -0.8687438334454787,
+          "actual_minus_punt_epa": -0.7184271686128314
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 40.0,
+          "combined_incompletion_punt_epa": -0.9848006390384403,
+          "actual_minus_punt_epa": -0.6023703630198698
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 32.0,
+          "combined_incompletion_punt_epa": -1.0062558428617199,
+          "actual_minus_punt_epa": -0.5809151591965902
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 35.0,
+      "actual_next_play_id": 2071.0,
+      "actual_post_ep_error": -3.1086244689504383e-15,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2024_18_JAX_IND",
+      "game_date": "2025-01-05",
+      "play_id": 2654,
+      "season": 2024,
+      "posteam": "JAX",
+      "defteam": "IND",
+      "ydstogo": 10,
+      "yardline_100": 50.0,
+      "half_seconds_remaining": 1389.0,
+      "air_yards": 49.0,
+      "return_yards": 10.0,
+      "ep": 1.19587919767946,
+      "epa": -1.75063820928335,
+      "expected_punt_net": 36.45327018756975,
+      "desc": "(8:09) (Shotgun) 10-M.Jones pass deep left intended for 7-B.Thomas INTERCEPTED by 32-J.Blackmon at IND 1. 32-J.Blackmon to IND 11 for 10 yards (87-J.Reynolds).",
+      "qb": "Mac Jones",
+      "qb_id": "00-0036972",
+      "roof": "closed",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.19587919767946,
+      "pre_ep_error": 0.0,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 36.45327018756975,
+          "receiving_own_yardline": 13.54672981243025,
+          "half_seconds_remaining": 1377.0,
+          "combined_incompletion_punt_epa": -1.8831334495916963,
+          "actual_minus_punt_epa": 0.13249524030834636
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 26.45327018756975,
+          "receiving_own_yardline": 23.54672981243025,
+          "half_seconds_remaining": 1377.0,
+          "combined_incompletion_punt_epa": -2.4213715507648885,
+          "actual_minus_punt_epa": 0.6707333414815386
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 46.45327018756975,
+          "receiving_own_yardline": 3.54672981243025,
+          "half_seconds_remaining": 1377.0,
+          "combined_incompletion_punt_epa": -1.4321427016984671,
+          "actual_minus_punt_epa": -0.31849550758488276
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 36.45327018756975,
+          "receiving_own_yardline": 13.54672981243025,
+          "half_seconds_remaining": 1379.0,
+          "combined_incompletion_punt_epa": -1.8825168004259467,
+          "actual_minus_punt_epa": 0.1318785911425968
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 36.45327018756975,
+          "receiving_own_yardline": 13.54672981243025,
+          "half_seconds_remaining": 1371.0,
+          "combined_incompletion_punt_epa": -1.8838147507049143,
+          "actual_minus_punt_epa": 0.13317654142156443
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 11.0,
+      "actual_next_play_id": 2681.0,
+      "actual_post_ep_error": -1.9984014443252818e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_02_LAC_LV",
+      "game_date": "2025-09-15",
+      "play_id": 1998,
+      "season": 2025,
+      "posteam": "LV",
+      "defteam": "LAC",
+      "ydstogo": 6,
+      "yardline_100": 55.0,
+      "half_seconds_remaining": 74.0,
+      "air_yards": 54.0,
+      "return_yards": 0.0,
+      "ep": 1.25324631819967,
+      "epa": -1.15533233905444,
+      "expected_punt_net": 40.04175358920701,
+      "desc": "(1:14) (Shotgun) 7-G.Smith pass deep right intended for 10-D.Thornton INTERCEPTED by 23-T.Jefferson at LAC 1. 23-T.Jefferson to LAC 1 for no gain (10-D.Thornton).",
+      "qb": "Geno Smith",
+      "qb_id": "00-0030565",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": 1.2532463181996718,
+      "pre_ep_error": 1.7763568394002505e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 40.04175358920701,
+          "receiving_own_yardline": 14.958246410792988,
+          "half_seconds_remaining": 62.0,
+          "combined_incompletion_punt_epa": -1.676439152681267,
+          "actual_minus_punt_epa": 0.5211068136268269
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 30.041753589207012,
+          "receiving_own_yardline": 24.958246410792988,
+          "half_seconds_remaining": 62.0,
+          "combined_incompletion_punt_epa": -2.170532828429712,
+          "actual_minus_punt_epa": 1.015200489375272
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 50.04175358920701,
+          "receiving_own_yardline": 4.958246410792988,
+          "half_seconds_remaining": 62.0,
+          "combined_incompletion_punt_epa": -1.483798793575259,
+          "actual_minus_punt_epa": 0.3284664545208189
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 40.04175358920701,
+          "receiving_own_yardline": 14.958246410792988,
+          "half_seconds_remaining": 64.0,
+          "combined_incompletion_punt_epa": -1.681536474497987,
+          "actual_minus_punt_epa": 0.5262041354435469
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 40.04175358920701,
+          "receiving_own_yardline": 14.958246410792988,
+          "half_seconds_remaining": 56.0,
+          "combined_incompletion_punt_epa": -1.6585301910527033,
+          "actual_minus_punt_epa": 0.5031978519982632
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 1.0,
+      "actual_next_play_id": 2025.0,
+      "actual_post_ep_error": 2.6645352591003757e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_03_KC_NYG",
+      "game_date": "2025-09-21",
+      "play_id": 1298,
+      "season": 2025,
+      "posteam": "NYG",
+      "defteam": "KC",
+      "ydstogo": 7,
+      "yardline_100": 71.0,
+      "half_seconds_remaining": 536.0,
+      "air_yards": 41.0,
+      "return_yards": 23.0,
+      "ep": 0.01472218031995,
+      "epa": -2.87421699846163,
+      "expected_punt_net": 44.048803814643136,
+      "desc": "(8:56) (Shotgun) 3-R.Wilson pass deep left intended for 17-W.Robinson INTERCEPTED by 30-C.Roland-Wallace at KC 30. 30-C.Roland-Wallace ran ob at NYG 47 for 23 yards (1-M.Nabers).",
+      "qb": "Russell Wilson",
+      "qb_id": "00-0029263",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.014722180319949985,
+      "pre_ep_error": -1.5612511283791264e-17,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.048803814643136,
+          "receiving_own_yardline": 26.951196185356864,
+          "half_seconds_remaining": 524.0,
+          "combined_incompletion_punt_epa": -1.2657023624051362,
+          "actual_minus_punt_epa": -1.6085146360564937
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.048803814643136,
+          "receiving_own_yardline": 36.951196185356864,
+          "half_seconds_remaining": 524.0,
+          "combined_incompletion_punt_epa": -1.870415458921343,
+          "actual_minus_punt_epa": -1.0038015395402868
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.048803814643136,
+          "receiving_own_yardline": 16.951196185356864,
+          "half_seconds_remaining": 524.0,
+          "combined_incompletion_punt_epa": -0.629175093723461,
+          "actual_minus_punt_epa": -2.245041904738169
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.048803814643136,
+          "receiving_own_yardline": 26.951196185356864,
+          "half_seconds_remaining": 526.0,
+          "combined_incompletion_punt_epa": -1.2740530895534903,
+          "actual_minus_punt_epa": -1.6001639089081396
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.048803814643136,
+          "receiving_own_yardline": 26.951196185356864,
+          "half_seconds_remaining": 518.0,
+          "combined_incompletion_punt_epa": -1.3095990016590804,
+          "actual_minus_punt_epa": -1.5646179968025495
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 53.0,
+      "actual_next_play_id": 1330.0,
+      "actual_post_ep_error": 0.0,
+      "punt_like_field_position": false,
+      "materially_worse": true
+    },
+    {
+      "game_id": "2025_04_NO_BUF",
+      "game_date": "2025-09-28",
+      "play_id": 1128,
+      "season": 2025,
+      "posteam": "BUF",
+      "defteam": "NO",
+      "ydstogo": 11,
+      "yardline_100": 88.0,
+      "half_seconds_remaining": 772.0,
+      "air_yards": 37.0,
+      "return_yards": 0.0,
+      "ep": -0.940865106182173,
+      "epa": -1.33785377023742,
+      "expected_punt_net": 44.056074928860845,
+      "desc": "(12:52) (Shotgun) 17-J.Allen pass deep right intended for 0-K.Coleman INTERCEPTED by 33-J.Sanker [93-N.Shepherd] at BUF 49. 33-J.Sanker to BUF 49 for no gain (0-K.Coleman).",
+      "qb": "Josh Allen",
+      "qb_id": "00-0034857",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": -0.9408651061821729,
+      "pre_ep_error": 1.1102230246251565e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.056074928860845,
+          "receiving_own_yardline": 43.943925071139155,
+          "half_seconds_remaining": 760.0,
+          "combined_incompletion_punt_epa": -0.8540246407501398,
+          "actual_minus_punt_epa": -0.4838291294872802
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.056074928860845,
+          "receiving_own_yardline": 53.943925071139155,
+          "half_seconds_remaining": 760.0,
+          "combined_incompletion_punt_epa": -1.5406516399234533,
+          "actual_minus_punt_epa": 0.2027978696860333
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.056074928860845,
+          "receiving_own_yardline": 33.943925071139155,
+          "half_seconds_remaining": 760.0,
+          "combined_incompletion_punt_epa": -0.18039109231904138,
+          "actual_minus_punt_epa": -1.1574626779183785
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.056074928860845,
+          "receiving_own_yardline": 43.943925071139155,
+          "half_seconds_remaining": 762.0,
+          "combined_incompletion_punt_epa": -0.8551324137952178,
+          "actual_minus_punt_epa": -0.48272135644220227
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.056074928860845,
+          "receiving_own_yardline": 43.943925071139155,
+          "half_seconds_remaining": 754.0,
+          "combined_incompletion_punt_epa": -0.8551279203966259,
+          "actual_minus_punt_epa": -0.48272584984079414
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 51.0,
+      "actual_next_play_id": 1155.0,
+      "actual_post_ep_error": 3.1086244689504383e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_05_DET_CIN",
+      "game_date": "2025-10-05",
+      "play_id": 1797,
+      "season": 2025,
+      "posteam": "CIN",
+      "defteam": "DET",
+      "ydstogo": 15,
+      "yardline_100": 93.0,
+      "half_seconds_remaining": 321.0,
+      "air_yards": 39.0,
+      "return_yards": 1.0,
+      "ep": -1.38555312401149,
+      "epa": -1.31782898318488,
+      "expected_punt_net": 43.14462985742698,
+      "desc": "(5:21) (Shotgun) 6-J.Browning pass deep right intended for 1-J.Chase INTERCEPTED by 31-K.Joseph at CIN 46. 31-K.Joseph to CIN 45 for 1 yard (1-J.Chase).",
+      "qb": "Jake Browning",
+      "qb_id": "00-0035100",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": -1.3855531240114942,
+      "pre_ep_error": -4.218847493575595e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.14462985742698,
+          "receiving_own_yardline": 49.85537014257302,
+          "half_seconds_remaining": 309.0,
+          "combined_incompletion_punt_epa": -0.96716934780125,
+          "actual_minus_punt_epa": -0.35065963538363
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.14462985742698,
+          "receiving_own_yardline": 59.85537014257302,
+          "half_seconds_remaining": 309.0,
+          "combined_incompletion_punt_epa": -1.6749688314739657,
+          "actual_minus_punt_epa": 0.35713984828908574
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.14462985742698,
+          "receiving_own_yardline": 39.85537014257302,
+          "half_seconds_remaining": 309.0,
+          "combined_incompletion_punt_epa": -0.18476847547572528,
+          "actual_minus_punt_epa": -1.1330605077091547
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.14462985742698,
+          "receiving_own_yardline": 49.85537014257302,
+          "half_seconds_remaining": 311.0,
+          "combined_incompletion_punt_epa": -0.9672208569245455,
+          "actual_minus_punt_epa": -0.35060812626033444
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.14462985742698,
+          "receiving_own_yardline": 49.85537014257302,
+          "half_seconds_remaining": 303.0,
+          "combined_incompletion_punt_epa": -0.9429520167177585,
+          "actual_minus_punt_epa": -0.37487696646712143
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 55.0,
+      "actual_next_play_id": 1824.0,
+      "actual_post_ep_error": -1.021405182655144e-14,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_09_KC_BUF",
+      "game_date": "2025-11-02",
+      "play_id": 3646,
+      "season": 2025,
+      "posteam": "KC",
+      "defteam": "BUF",
+      "ydstogo": 11,
+      "yardline_100": 77.0,
+      "half_seconds_remaining": 267.0,
+      "air_yards": 44.0,
+      "return_yards": 0.0,
+      "ep": -0.412874520290643,
+      "epa": -0.975570107926615,
+      "expected_punt_net": 44.16689067511193,
+      "desc": "(4:27) (Shotgun) 15-P.Mahomes pass deep right intended for 1-X.Worthy INTERCEPTED by 31-M.Hairston [97-J.Bosa] at BUF 33. 31-M.Hairston to BUF 33 for no gain (1-X.Worthy). ** Injury Update: KC-76-K.Suamataia has returned to the game.",
+      "qb": "Patrick Mahomes",
+      "qb_id": "00-0033873",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 1.0,
+      "reconstructed_pre_ep": -0.412874520290643,
+      "pre_ep_error": 0.0,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 44.16689067511193,
+          "receiving_own_yardline": 32.83310932488807,
+          "half_seconds_remaining": 255.0,
+          "combined_incompletion_punt_epa": -0.9538197570946068,
+          "actual_minus_punt_epa": -0.02175035083200827
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 34.16689067511193,
+          "receiving_own_yardline": 42.83310932488807,
+          "half_seconds_remaining": 255.0,
+          "combined_incompletion_punt_epa": -1.4583092369139194,
+          "actual_minus_punt_epa": 0.4827391289873044
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 54.16689067511193,
+          "receiving_own_yardline": 22.83310932488807,
+          "half_seconds_remaining": 255.0,
+          "combined_incompletion_punt_epa": -0.2787001677788794,
+          "actual_minus_punt_epa": -0.6968699401477356
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 44.16689067511193,
+          "receiving_own_yardline": 32.83310932488807,
+          "half_seconds_remaining": 257.0,
+          "combined_incompletion_punt_epa": -0.9821183327585459,
+          "actual_minus_punt_epa": 0.006548224831930849
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 44.16689067511193,
+          "receiving_own_yardline": 32.83310932488807,
+          "half_seconds_remaining": 249.0,
+          "combined_incompletion_punt_epa": -0.9128760242601857,
+          "actual_minus_punt_epa": -0.06269408366642937
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 33.0,
+      "actual_next_play_id": 3673.0,
+      "actual_post_ep_error": -1.9984014443252818e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_10_BAL_MIN",
+      "game_date": "2025-11-09",
+      "play_id": 1369,
+      "season": 2025,
+      "posteam": "MIN",
+      "defteam": "BAL",
+      "ydstogo": 6,
+      "yardline_100": 63.0,
+      "half_seconds_remaining": 414.0,
+      "air_yards": 41.0,
+      "return_yards": 0.0,
+      "ep": 0.797301340615377,
+      "epa": -1.90980404685251,
+      "expected_punt_net": 43.35244043703742,
+      "desc": "(6:54) (Shotgun) 9-J.McCarthy pass deep right intended for 18-J.Jefferson INTERCEPTED by 24-M.Starks at BAL 22. 24-M.Starks to BAL 46 for 24 yards (3-J.Addison). The Replay Official reviewed the runner was not down by contact ruling, and the play was REVERSED. (Shotgun) 9-J.McCarthy pass deep right intended for 18-J.Jefferson INTERCEPTED by 24-M.Starks at BAL 22. 24-M.Starks to BAL 22 for no gain (18-J.Jefferson).",
+      "qb": "J.J. McCarthy",
+      "qb_id": "00-0039923",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.7973013406153768,
+      "pre_ep_error": -2.220446049250313e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 43.35244043703742,
+          "receiving_own_yardline": 19.647559562962577,
+          "half_seconds_remaining": 402.0,
+          "combined_incompletion_punt_epa": -1.8651300712954255,
+          "actual_minus_punt_epa": -0.04467397555708441
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 33.35244043703742,
+          "receiving_own_yardline": 29.647559562962577,
+          "half_seconds_remaining": 402.0,
+          "combined_incompletion_punt_epa": -2.5486216163262725,
+          "actual_minus_punt_epa": 0.6388175694737626
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 53.35244043703742,
+          "receiving_own_yardline": 9.647559562962577,
+          "half_seconds_remaining": 402.0,
+          "combined_incompletion_punt_epa": -1.1304825544357302,
+          "actual_minus_punt_epa": -0.7793214924167797
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 43.35244043703742,
+          "receiving_own_yardline": 19.647559562962577,
+          "half_seconds_remaining": 404.0,
+          "combined_incompletion_punt_epa": -1.8915895218960943,
+          "actual_minus_punt_epa": -0.018214524956415623
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 43.35244043703742,
+          "receiving_own_yardline": 19.647559562962577,
+          "half_seconds_remaining": 396.0,
+          "combined_incompletion_punt_epa": -1.877519491594285,
+          "actual_minus_punt_epa": -0.032284555258224934
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 22.0,
+      "actual_next_play_id": 1396.0,
+      "actual_post_ep_error": -7.105427357601002e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_10_BUF_MIA",
+      "game_date": "2025-11-09",
+      "play_id": 139,
+      "season": 2025,
+      "posteam": "MIA",
+      "defteam": "BUF",
+      "ydstogo": 11,
+      "yardline_100": 66.0,
+      "half_seconds_remaining": 1721.0,
+      "air_yards": 41.0,
+      "return_yards": 0.0,
+      "ep": 0.0485214504878968,
+      "epa": -1.49993733596057,
+      "expected_punt_net": 45.02563331972556,
+      "desc": "(13:41) (Shotgun) 1-T.Tagovailoa pass deep right intended for 17-J.Waddle INTERCEPTED by 24-C.Bishop at BUF 25. 24-C.Bishop to BUF 25 for no gain (17-J.Waddle).",
+      "qb": "Tua Tagovailoa",
+      "qb_id": "00-0036212",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.0485214504878968,
+      "pre_ep_error": 0.0,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 45.02563331972556,
+          "receiving_own_yardline": 20.974366680274443,
+          "half_seconds_remaining": 1709.0,
+          "combined_incompletion_punt_epa": -1.0881828886922449,
+          "actual_minus_punt_epa": -0.4117544472683252
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 35.02563331972556,
+          "receiving_own_yardline": 30.974366680274443,
+          "half_seconds_remaining": 1709.0,
+          "combined_incompletion_punt_epa": -1.903500183019787,
+          "actual_minus_punt_epa": 0.40356284705921697
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 55.02563331972556,
+          "receiving_own_yardline": 10.974366680274443,
+          "half_seconds_remaining": 1709.0,
+          "combined_incompletion_punt_epa": -0.4383753421716392,
+          "actual_minus_punt_epa": -1.061561993788931
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 45.02563331972556,
+          "receiving_own_yardline": 20.974366680274443,
+          "half_seconds_remaining": 1711.0,
+          "combined_incompletion_punt_epa": -1.0897085177712142,
+          "actual_minus_punt_epa": -0.41022881818935586
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 45.02563331972556,
+          "receiving_own_yardline": 20.974366680274443,
+          "half_seconds_remaining": 1703.0,
+          "combined_incompletion_punt_epa": -1.0899345562793314,
+          "actual_minus_punt_epa": -0.41000277968123866
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 25.0,
+      "actual_next_play_id": 166.0,
+      "actual_post_ep_error": 3.3306690738754696e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_10_BUF_MIA",
+      "game_date": "2025-11-09",
+      "play_id": 3001,
+      "season": 2025,
+      "posteam": "MIA",
+      "defteam": "BUF",
+      "ydstogo": 9,
+      "yardline_100": 66.0,
+      "half_seconds_remaining": 548.0,
+      "air_yards": 43.0,
+      "return_yards": 1.0,
+      "ep": 0.402697530109435,
+      "epa": -0.559971364215016,
+      "expected_punt_net": 45.02563331972556,
+      "desc": "(9:08) (Shotgun) 1-T.Tagovailoa pass deep left intended for 17-J.Waddle INTERCEPTED by 31-M.Hairston at BUF 23. 31-M.Hairston to BUF 39 for 16 yards (6-M.Washington). PENALTY on BUF-56-J.Solomon, Illegal Blindside Block, 12 yards, enforced at BUF 24.",
+      "qb": "Tua Tagovailoa",
+      "qb_id": "00-0036212",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.4026975301094353,
+      "pre_ep_error": 3.3306690738754696e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 45.02563331972556,
+          "receiving_own_yardline": 20.974366680274443,
+          "half_seconds_remaining": 536.0,
+          "combined_incompletion_punt_epa": -1.0844000610522921,
+          "actual_minus_punt_epa": 0.5244286968372761
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 35.02563331972556,
+          "receiving_own_yardline": 30.974366680274443,
+          "half_seconds_remaining": 536.0,
+          "combined_incompletion_punt_epa": -1.676166463643312,
+          "actual_minus_punt_epa": 1.116195099428296
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 55.02563331972556,
+          "receiving_own_yardline": 10.974366680274443,
+          "half_seconds_remaining": 536.0,
+          "combined_incompletion_punt_epa": -0.4529681513085958,
+          "actual_minus_punt_epa": -0.10700321290642023
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 45.02563331972556,
+          "receiving_own_yardline": 20.974366680274443,
+          "half_seconds_remaining": 538.0,
+          "combined_incompletion_punt_epa": -1.084928313735872,
+          "actual_minus_punt_epa": 0.524956949520856
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 45.02563331972556,
+          "receiving_own_yardline": 20.974366680274443,
+          "half_seconds_remaining": 530.0,
+          "combined_incompletion_punt_epa": -1.0856195837259288,
+          "actual_minus_punt_epa": 0.5256482195109128
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 12.0,
+      "actual_next_play_id": 3039.0,
+      "actual_post_ep_error": 1.1102230246251565e-16,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_14_HOU_KC",
+      "game_date": "2025-12-07",
+      "play_id": 3299,
+      "season": 2025,
+      "posteam": "KC",
+      "defteam": "HOU",
+      "ydstogo": 6,
+      "yardline_100": 58.0,
+      "half_seconds_remaining": 900.0,
+      "air_yards": 42.0,
+      "return_yards": 0.0,
+      "ep": 1.11126449657604,
+      "epa": -1.40344289923087,
+      "expected_punt_net": 42.15894367099041,
+      "desc": "(15:00) (Shotgun) 15-P.Mahomes pass deep left intended for 5-M.Brown INTERCEPTED by 4-K.Lassiter at HOU 16. 4-K.Lassiter to HOU 16 for no gain (5-M.Brown).",
+      "qb": "Patrick Mahomes",
+      "qb_id": "00-0033873",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 1.111264496576041,
+      "pre_ep_error": 8.881784197001252e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 888.0,
+          "combined_incompletion_punt_epa": -1.402630129363387,
+          "actual_minus_punt_epa": -0.0008127698674831318
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.15894367099041,
+          "receiving_own_yardline": 25.84105632900959,
+          "half_seconds_remaining": 888.0,
+          "combined_incompletion_punt_epa": -2.0337682673707596,
+          "actual_minus_punt_epa": 0.6303253681398895
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.15894367099041,
+          "receiving_own_yardline": 5.841056329009589,
+          "half_seconds_remaining": 888.0,
+          "combined_incompletion_punt_epa": -0.9027384240180245,
+          "actual_minus_punt_epa": -0.5007044752128456
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 890.0,
+          "combined_incompletion_punt_epa": -1.4021447375416747,
+          "actual_minus_punt_epa": -0.0012981616891953873
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 882.0,
+          "combined_incompletion_punt_epa": -1.4031192781403652,
+          "actual_minus_punt_epa": -0.00032362109050487753
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 16.0,
+      "actual_next_play_id": 3332.0,
+      "actual_post_ep_error": 2.886579864025407e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2025_15_BUF_NE",
+      "game_date": "2025-12-14",
+      "play_id": 2891,
+      "season": 2025,
+      "posteam": "NE",
+      "defteam": "BUF",
+      "ydstogo": 25,
+      "yardline_100": 58.0,
+      "half_seconds_remaining": 999.0,
+      "air_yards": 49.0,
+      "return_yards": 0.0,
+      "ep": 0.592963485047221,
+      "epa": -0.46181279164739,
+      "expected_punt_net": 42.15894367099041,
+      "desc": "(1:39) (Shotgun) 10-D.Maye pass deep right intended for 13-M.Hollins INTERCEPTED by 27-T.White at BUF 9. 27-T.White to BUF 9 for no gain (13-M.Hollins).",
+      "qb": "Drake Maye",
+      "qb_id": "00-0039851",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 3.0,
+      "defteam_timeouts_remaining": 3.0,
+      "reconstructed_pre_ep": 0.5929634850472212,
+      "pre_ep_error": 2.220446049250313e-16,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 987.0,
+          "combined_incompletion_punt_epa": -0.8834838485345242,
+          "actual_minus_punt_epa": 0.42167105688713424
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.15894367099041,
+          "receiving_own_yardline": 25.84105632900959,
+          "half_seconds_remaining": 987.0,
+          "combined_incompletion_punt_epa": -1.5242536901496349,
+          "actual_minus_punt_epa": 1.0624408985022449
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.15894367099041,
+          "receiving_own_yardline": 5.841056329009589,
+          "half_seconds_remaining": 987.0,
+          "combined_incompletion_punt_epa": -0.3693098276853559,
+          "actual_minus_punt_epa": -0.09250296396203406
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 989.0,
+          "combined_incompletion_punt_epa": -0.8834877549670634,
+          "actual_minus_punt_epa": 0.42167496331967347
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.15894367099041,
+          "receiving_own_yardline": 15.84105632900959,
+          "half_seconds_remaining": 981.0,
+          "combined_incompletion_punt_epa": -0.92638966999948,
+          "actual_minus_punt_epa": 0.46457687835209005
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 9.0,
+      "actual_next_play_id": 2918.0,
+      "actual_post_ep_error": 9.992007221626409e-16,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2026_02_PHI_TEN",
+      "game_date": "2026-09-20",
+      "play_id": 3436,
+      "season": 2026,
+      "posteam": "PHI",
+      "defteam": "TEN",
+      "ydstogo": 12,
+      "yardline_100": 44.0,
+      "half_seconds_remaining": 368.0,
+      "air_yards": 30.0,
+      "return_yards": 3.0,
+      "ep": 1.33316192682832,
+      "epa": -1.58053480368108,
+      "expected_punt_net": 31.637399233660624,
+      "desc": "(6:08) (Shotgun) 1-J.Hurts pass deep left intended for 6-D.Smith INTERCEPTED by 26-M.Harris [98-J.Simmons] at TEN 14. 26-M.Harris pushed ob at TEN 17 for 3 yards (6-D.Smith).",
+      "qb": "Jalen Hurts",
+      "qb_id": "00-0036389",
+      "roof": "outdoors",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": 1.3331619268283248,
+      "pre_ep_error": 4.884981308350689e-15,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 31.637399233660624,
+          "receiving_own_yardline": 12.362600766339376,
+          "half_seconds_remaining": 356.0,
+          "combined_incompletion_punt_epa": -1.3701568683609318,
+          "actual_minus_punt_epa": -0.21037793532014826
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 21.637399233660624,
+          "receiving_own_yardline": 22.362600766339376,
+          "half_seconds_remaining": 356.0,
+          "combined_incompletion_punt_epa": -1.8906761130783658,
+          "actual_minus_punt_epa": 0.3101413093972858
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 41.637399233660624,
+          "receiving_own_yardline": 2.3626007663393764,
+          "half_seconds_remaining": 356.0,
+          "combined_incompletion_punt_epa": -0.9581162070389788,
+          "actual_minus_punt_epa": -0.6224185966421012
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 31.637399233660624,
+          "receiving_own_yardline": 12.362600766339376,
+          "half_seconds_remaining": 358.0,
+          "combined_incompletion_punt_epa": -1.3689660308882545,
+          "actual_minus_punt_epa": -0.2115687727928255
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 31.637399233660624,
+          "receiving_own_yardline": 12.362600766339376,
+          "half_seconds_remaining": 350.0,
+          "combined_incompletion_punt_epa": -1.369095745496447,
+          "actual_minus_punt_epa": -0.21143905818463304
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 17.0,
+      "actual_next_play_id": 3475.0,
+      "actual_post_ep_error": 9.103828801926284e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    },
+    {
+      "game_id": "2026_05_BUF_LA",
+      "game_date": "2026-10-12",
+      "play_id": 1955,
+      "season": 2026,
+      "posteam": "BUF",
+      "defteam": "LA",
+      "ydstogo": 6,
+      "yardline_100": 84.0,
+      "half_seconds_remaining": 37.0,
+      "air_yards": 44.0,
+      "return_yards": 3.0,
+      "ep": 0.0952200055471621,
+      "epa": -1.20849548809929,
+      "expected_punt_net": 42.96087859567668,
+      "desc": "(:37) (Shotgun) 17-J.Allen pass deep right intended for 0-K.Coleman INTERCEPTED by 35-J.Watson at LA 40. 35-J.Watson to LA 43 for 3 yards (88-D.Knox).",
+      "qb": "Josh Allen",
+      "qb_id": "00-0034857",
+      "roof": "dome",
+      "neutral_site": false,
+      "posteam_timeouts_remaining": 2.0,
+      "defteam_timeouts_remaining": 2.0,
+      "reconstructed_pre_ep": 0.09522000554716215,
+      "pre_ep_error": 4.163336342344337e-17,
+      "scenarios": {
+        "central": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 41.03912140432332,
+          "half_seconds_remaining": 25.0,
+          "combined_incompletion_punt_epa": -1.2759422656381503,
+          "actual_minus_punt_epa": 0.0674467775388603
+        },
+        "shorter_punt": {
+          "net_punt_yards_input": 32.96087859567668,
+          "receiving_own_yardline": 51.03912140432332,
+          "half_seconds_remaining": 25.0,
+          "combined_incompletion_punt_epa": -1.8020826746942475,
+          "actual_minus_punt_epa": 0.5935871865949576
+        },
+        "longer_punt": {
+          "net_punt_yards_input": 52.96087859567668,
+          "receiving_own_yardline": 31.039121404323318,
+          "half_seconds_remaining": 25.0,
+          "combined_incompletion_punt_epa": -0.7940727191162296,
+          "actual_minus_punt_epa": -0.4144227689830604
+        },
+        "faster_sequence": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 41.03912140432332,
+          "half_seconds_remaining": 27.0,
+          "combined_incompletion_punt_epa": -1.324069554626476,
+          "actual_minus_punt_epa": 0.11557406652718605
+        },
+        "slower_sequence": {
+          "net_punt_yards_input": 42.96087859567668,
+          "receiving_own_yardline": 41.03912140432332,
+          "half_seconds_remaining": 19.0,
+          "combined_incompletion_punt_epa": -1.1628876595641486,
+          "actual_minus_punt_epa": -0.04560782853514134
+        }
+      },
+      "return_touchdown": false,
+      "actual_receiving_own_yardline": 43.0,
+      "actual_next_play_id": 1982.0,
+      "actual_post_ep_error": -2.220446049250313e-15,
+      "punt_like_field_position": true,
+      "materially_worse": false
+    }
+  ]
+}
