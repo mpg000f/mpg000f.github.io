@@ -1,0 +1,125 @@
+{
+  "scope": "2022\u20132026 YTD regular seasons",
+  "as_of": "2026-10-14",
+  "data_through": "2026-10-12",
+  "groups": {
+    "allen": {
+      "opportunities": 284,
+      "deep": 32,
+      "interceptions": 6,
+      "extra_risk": 3,
+      "risk": 9,
+      "ftn_only_risk": 9,
+      "deep_pct": 11.267605633802816,
+      "risk_pct": 3.1690140845070425,
+      "risk_on_deep_pct": 28.125
+    },
+    "others": {
+      "opportunities": 10621,
+      "deep": 574,
+      "interceptions": 35,
+      "extra_risk": 28,
+      "risk": 63,
+      "ftn_only_risk": 61,
+      "deep_pct": 5.404387534130496,
+      "risk_pct": 0.5931644854533471,
+      "risk_on_deep_pct": 10.975609756097562
+    }
+  },
+  "historical_groups": {
+    "allen": {
+      "opportunities": 261,
+      "deep": 29,
+      "interceptions": 5,
+      "extra_risk": 3,
+      "risk": 8,
+      "ftn_only_risk": 8,
+      "deep_pct": 11.11111111111111,
+      "risk_pct": 3.0651340996168583,
+      "risk_on_deep_pct": 27.586206896551722
+    },
+    "others": {
+      "opportunities": 9891,
+      "deep": 525,
+      "interceptions": 34,
+      "extra_risk": 26,
+      "risk": 60,
+      "ftn_only_risk": 59,
+      "deep_pct": 5.307855626326964,
+      "risk_pct": 0.6066120715802245,
+      "risk_on_deep_pct": 11.428571428571429
+    }
+  },
+  "yearly": [
+    {
+      "season": 2022,
+      "partial": false,
+      "allen": {
+        "opportunities": 67,
+        "deep": 10,
+        "risk": 3
+      },
+      "others": {
+        "opportunities": 2505,
+        "deep": 115,
+        "risk": 12
+      }
+    },
+    {
+      "season": 2023,
+      "partial": false,
+      "allen": {
+        "opportunities": 74,
+        "deep": 5,
+        "risk": 3
+      },
+      "others": {
+        "opportunities": 2639,
+        "deep": 146,
+        "risk": 17
+      }
+    },
+    {
+      "season": 2024,
+      "partial": false,
+      "allen": {
+        "opportunities": 67,
+        "deep": 12,
+        "risk": 1
+      },
+      "others": {
+        "opportunities": 2372,
+        "deep": 118,
+        "risk": 14
+      }
+    },
+    {
+      "season": 2025,
+      "partial": false,
+      "allen": {
+        "opportunities": 53,
+        "deep": 2,
+        "risk": 1
+      },
+      "others": {
+        "opportunities": 2375,
+        "deep": 146,
+        "risk": 17
+      }
+    },
+    {
+      "season": 2026,
+      "partial": true,
+      "allen": {
+        "opportunities": 23,
+        "deep": 3,
+        "risk": 1
+      },
+      "others": {
+        "opportunities": 730,
+        "deep": 49,
+        "risk": 3
+      }
+    }
+  ]
+}

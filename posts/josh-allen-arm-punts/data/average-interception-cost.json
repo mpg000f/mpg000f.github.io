@@ -1,0 +1,58 @@
+{
+  "scope": "2022\u20132026 YTD regular seasons through 2026-10-12",
+  "source": "nflverse PBP releases; refreshed for this calculation",
+  "all_qbs": {
+    "interceptions": 1715,
+    "total_epa": -7543.781809280271,
+    "epa_per_interception": -4.39870659433252,
+    "six_average_interceptions_epa": -26.39223956599512
+  },
+  "other_qbs_excluding_allen": {
+    "interceptions": 1663,
+    "total_epa": -7359.64972555855,
+    "epa_per_interception": -4.425525992518671,
+    "six_average_interceptions_epa": -26.553155955112025
+  },
+  "illustrative_arm_punt_extra_cost": {
+    "epa_per_pick": -0.45,
+    "six_picks_epa": -2.7
+  },
+  "comparison_note": "Average interception EPA is the full play cost; -0.45 is additional cost relative to the incompletion/punt fallback. These have different baselines and are not a matched estimate of savings.",
+  "yearly": [
+    {
+      "season": 2022,
+      "interceptions": 414,
+      "total_epa": -1817.0577173944625,
+      "epa_per_interception": -4.389028302885175,
+      "six_average_interceptions_epa": -26.33416981731105
+    },
+    {
+      "season": 2023,
+      "interceptions": 429,
+      "total_epa": -1896.7086449054773,
+      "epa_per_interception": -4.42123227250694,
+      "six_average_interceptions_epa": -26.52739363504164
+    },
+    {
+      "season": 2024,
+      "interceptions": 385,
+      "total_epa": -1687.5276031644028,
+      "epa_per_interception": -4.3831885796478,
+      "six_average_interceptions_epa": -26.299131477886796
+    },
+    {
+      "season": 2025,
+      "interceptions": 378,
+      "total_epa": -1694.9181427161097,
+      "epa_per_interception": -4.483910430465899,
+      "six_average_interceptions_epa": -26.903462582795395
+    },
+    {
+      "season": 2026,
+      "interceptions": 109,
+      "total_epa": -447.56970109981893,
+      "epa_per_interception": -4.10614404678733,
+      "six_average_interceptions_epa": -24.63686428072398
+    }
+  ]
+}

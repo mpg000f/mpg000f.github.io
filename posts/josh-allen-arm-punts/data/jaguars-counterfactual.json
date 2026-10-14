@@ -1,0 +1,14 @@
+{
+  "game_id": "2023_05_JAX_BUF",
+  "play_id": 3466,
+  "net_punt": 42.41241304366694,
+  "punt_receiving_own_yardline": 16.587586956333062,
+  "initial_ep": -0.16873619379475713,
+  "incompletion_epa": -1.0476135178469121,
+  "punt_epa": 0.5853236333932728,
+  "combined_epa": -0.4622898844536394,
+  "actual_int_epa": 0.192140560597181,
+  "int_advantage": 0.6544304450508204,
+  "seconds_after_punt": 784,
+  "seconds_after_interception": 786
+}
