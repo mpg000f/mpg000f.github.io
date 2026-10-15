@@ -7,6 +7,13 @@
   },
   "posts": [
     {
+      "slug": "mvp-rankings-since-2000",
+      "title": "MVP Rankings since 2000",
+      "description": "Every MVP-winning season since 2000 ranked, with EPA, touchdowns and a few arguments with the voters.",
+      "date": "2026-10-15",
+      "tag": "NFL"
+    },
+    {
       "slug": "allen-vs-jackson",
       "title": "Josh vs Lamar. A Deep Dive.",
       "description": "Eight seasons of play-by-play on the draft class's longest argument — the close career, Lamar's dominant start, and the six years since.",
