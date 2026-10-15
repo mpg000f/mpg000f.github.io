@@ -55,7 +55,6 @@ doc = f"""<!doctype html>
 
   <footer>
     <span>&copy; {date.today().year} {esc(site['author'])}</span>
-    <span><a href="{site['github']}">GitHub</a></span>
   </footer>
 </div>
 <script>
