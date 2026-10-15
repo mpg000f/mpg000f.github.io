@@ -7,20 +7,6 @@
   },
   "posts": [
     {
-      "slug": "mvp-rankings-since-2000",
-      "title": "MVP Rankings since 2000",
-      "description": "Every MVP-winning season since 2000 ranked, with EPA, touchdowns and a few arguments with the voters.",
-      "date": "2026-10-15",
-      "tag": "NFL"
-    },
-    {
-      "slug": "allen-vs-jackson",
-      "title": "Josh vs Lamar. A Deep Dive.",
-      "description": "Eight seasons of play-by-play on the draft class's longest argument — the close career, Lamar's dominant start, and the six years since.",
-      "date": "2026-09-03",
-      "tag": "NFL"
-    },
-    {
       "slug": "josh-allen-arm-punts",
       "title": "Josh Allen and the Arm Punt",
       "description": "Testing the deep third-down risks behind Allen’s arm punts, with play-by-play and FTN interception-worthy charting.",
@@ -32,6 +18,20 @@
       "title": "Why I’m Still All In on Drake Maye",
       "description": "A historic second season, an easy schedule, and why the rough patch hasn’t changed my mind.",
       "date": "2026-10-14",
+      "tag": "NFL"
+    },
+    {
+      "slug": "allen-vs-jackson",
+      "title": "Josh vs Lamar. A Deep Dive.",
+      "description": "Eight seasons of play-by-play on the draft class's longest argument — the close career, Lamar's dominant start, and the six years since.",
+      "date": "2026-09-03",
+      "tag": "NFL"
+    },
+    {
+      "slug": "mvp-rankings-since-2000",
+      "title": "MVP Rankings since 2000",
+      "description": "Every MVP-winning season since 2000 ranked, with EPA, touchdowns and a few arguments with the voters.",
+      "date": "2026-05-05",
       "tag": "NFL"
     }
   ]
