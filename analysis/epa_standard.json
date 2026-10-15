@@ -1,0 +1,71 @@
+{
+  "version": "nfelo-compatible-v1",
+  "source": "nflverse PBP",
+  "epa_column": "epa",
+  "attribution": "nflfastR id",
+  "scope": "REG unless explicitly marked POST",
+  "qualifying_minimum_single_season": 300,
+  "no_win_probability_or_garbage_time_filter": true,
+  "include_designed_qb_runs": true,
+  "benchmarks": [
+    {
+      "name": "Josh Allen",
+      "year": 2024,
+      "nfelo_epa": 206.1051,
+      "games": 16,
+      "source": "https://www.nfeloapp.com/qb-rankings/josh-allen/2024/",
+      "reproduced_epa": 206.10501324659057,
+      "reproduced_plays": 634,
+      "reproduced_rate": 0.32508677168231953,
+      "reproduced_success": 0.5220820189274448,
+      "absolute_difference": 8.675340941977083e-05
+    },
+    {
+      "name": "Lamar Jackson",
+      "year": 2019,
+      "nfelo_epa": 208.101,
+      "games": 15,
+      "source": "https://www.nfeloapp.com/qb-rankings/lamar-jackson/2019/",
+      "reproduced_epa": 208.10106796383846,
+      "reproduced_plays": 597,
+      "reproduced_rate": 0.34857800328951166,
+      "reproduced_success": 0.5192629815745393,
+      "absolute_difference": 6.796383846108256e-05
+    },
+    {
+      "name": "Matthew Stafford",
+      "year": 2025,
+      "nfelo_epa": 150.46,
+      "games": 17,
+      "source": "https://www.nfeloapp.com/qb-rankings/matthew-stafford/2025/",
+      "reproduced_epa": 150.46009541475303,
+      "reproduced_plays": 662,
+      "reproduced_rate": 0.22728111089841846,
+      "reproduced_success": 0.5347432024169184,
+      "absolute_difference": 9.541475301944047e-05
+    },
+    {
+      "name": "Tom Brady",
+      "year": 2007,
+      "nfelo_epa": 275.8558,
+      "games": 16,
+      "source": "https://www.nfeloapp.com/qb-rankings/tom-brady/2007/",
+      "reproduced_epa": 275.85585177190603,
+      "reproduced_plays": 653,
+      "reproduced_rate": 0.4224438771392129,
+      "reproduced_success": 0.5865237366003063,
+      "absolute_difference": 5.177190604399584e-05
+    },
+    {
+      "name": "Drake Maye",
+      "year": 2025,
+      "nfelo_epa": 201.0109,
+      "source": "https://www.nfeloapp.com/qb-rankings/drake-maye/2025/",
+      "reproduced_epa": 201.01098822526043,
+      "reproduced_plays": 654,
+      "reproduced_rate": 0.3073562511089609,
+      "reproduced_success": 0.5489296636085627,
+      "absolute_difference": 8.822526044127699e-05
+    }
+  ]
+}

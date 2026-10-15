@@ -1,0 +1,5 @@
+4704 checks passed.
+Raw EPA totals, rates and success share one denominator.
+Five independent nfelo game-log sum benchmarks agree within 0.001 EPA.
+All overlapping quarterback-season values agree across the three article files.
+JavaScript syntax checked with Node.
